@@ -1,0 +1,15 @@
+---
+type: spirit
+in_stock: false
+approximate_cost:
+category: "Rum"
+style: "aged"
+character: "Guyana. Dark amber, complex nose, shares qualities with fine aged brandy. Good as a sipper or in Old-Fashioneds, Juleps or Manhattan-style drinks, either as sole core or alongside other aged spirits"
+---
+
+# El Dorado 15-Year
+
+**Category:** [[Rum]]
+
+## Notes
+Guyana. Dark amber, complex nose, shares qualities with fine aged brandy. Good as a sipper or in Old-Fashioneds, Juleps or Manhattan-style drinks, either as sole core or alongside other aged spirits.

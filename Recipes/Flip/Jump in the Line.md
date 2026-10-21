@@ -1,0 +1,38 @@
+---
+root: "#flip"
+method: short shake
+glass: Collins
+page: 262
+tried: false
+rating: 
+date_tried: 
+---
+
+# Jump in the Line
+## Root
+[[Flip]]
+
+## Ingredients
+- 1 orange half wheel #seasoning
+- 1/2 strawberry ([[Strawberry]]) #balance
+- 1 1/2 oz [[Lustau Los Arcos amontillado sherry]] #core
+- 1/2 oz [[Amaro di Angostura]] #seasoning
+- 1/4 oz [[La Favorite Ambre rhum agricole]] #core
+- 1 tsp [[Pierre Ferrand dry curacao]] #balance
+- 1/2 oz [[House Coconut Cream]] (p295) #balance
+- 1 dash [[Angostura Bitters]] #seasoning
+- Garnish: 1 pineapple leaf, 1 orange half wheel and 1 mint sprig #seasoning
+
+## Your Bar
+```dataviewjs
+await dv.view("Views/recipe-status");
+```
+
+## Method
+In a shaker, gently muddle the orange half wheel and strawberry. Add the remaining ingredients and short shake with ice, then double strain into a Collins glass. Fill the glass with crushed ice. Garnish with the pineapple leaf, orange half wheel and mint sprig, and serve with a straw.
+
+## Notes
+Lauren Corriveau, 2015. A sophisticated nondairy riff on the tropical Pina Colada (p269), with Amaro di Angostura seasoning an amontillado core. A deeply complex poolside cocktail.
+
+Book section: [[_Notes - Flip - Experimenting with the Seasoning]]
+See also: [[Barnaby Jones]], [[Almond Orchard]]

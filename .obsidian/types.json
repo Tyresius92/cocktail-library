@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "significant-other": "text",
+    "birthday": "date",
+    "anniversary": "date",
+    "rating": "number",
+    "date_tried": "date",
+    "page": "number"
+  }
+}
