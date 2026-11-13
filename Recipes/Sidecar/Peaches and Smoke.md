@@ -13,14 +13,14 @@ date_tried:
 [[Sidecar]]
 
 ## Ingredients
-- 1 peach wedge, muddled #balance
+- 1 [[Peach]] wedge, muddled #balance
 - 1 1/2 oz [[Lillet Rose]] #core
 - 1/2 oz [[Pierre Ferrand Ambre Cognac]] #core
 - 1 tsp [[Laphroaig 10-year scotch]] #seasoning
 - 3/4 oz [[Giffard Creme de Peche]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 peach wedge #seasoning
+- Garnish: 1 [[Peach]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

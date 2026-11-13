@@ -17,7 +17,7 @@ date_tried:
 - 3/4 oz [[Dolin Blanc]] #balance
 - 1/4 oz [[Cointreau]] #seasoning
 - 1 dash [[House Orange Bitters]] (p295) #seasoning
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

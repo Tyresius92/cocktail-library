@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[St-Germain]] #balance
 - 1/4 oz [[Suze]] #seasoning
 - 1/2 oz [[Fusion Napa Valley verjus blanc]] #balance
-- 1/4 oz fresh [[Lemon]] juice #balance
+- 1/4 oz fresh [[Lemon Juice]] #balance
 - 2 drops [[Salt Solution]] (p298) #seasoning
 - 3 oz [[Normandy sparkling apple cider]] #balance
 - Garnish: 5 thin apple slices on a skewer #seasoning

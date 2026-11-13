@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Aylesbury Duck vodka]] #core
 - 1/2 oz [[Galliano l'Autentico]] #seasoning
-- 3 oz fresh [[Orange]] juice #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
-- Garnish: 1 orange half wheel #seasoning
+- 3 oz fresh [[Orange Juice]] #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
+- Garnish: 1 [[Orange]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

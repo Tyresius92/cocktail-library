@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Plantation 3 Stars White]] #core
 - 1/2 tsp [[Chareau aloe liqueur]] #seasoning
 - 1/2 tsp [[Giffard Menthe-Pastille]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Cane Sugar Syrup]] (p47) #balance
 - 6 drops [[Salt Solution]] (p298) #seasoning
 

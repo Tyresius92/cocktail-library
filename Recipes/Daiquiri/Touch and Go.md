@@ -17,7 +17,7 @@ date_tried:
 - 3/4 oz [[Basil Stem Syrup]] #balance
 - 1 1/2 oz [[Espolon blanco tequila]] #core
 - 1 tsp [[Del Maguey Vida mezcal]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - Garnish: 1 [[Basil]] leaf #seasoning
 
 ## Your Bar

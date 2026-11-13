@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Appleton Estate Reserve Blend]] #core
 - 1 oz [[La Favorite Coeur de Canne rhum agricole blanc]] #core
 - 1/4 oz [[Grand Marnier]] #balance
-- 1 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[House Orgeat]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning

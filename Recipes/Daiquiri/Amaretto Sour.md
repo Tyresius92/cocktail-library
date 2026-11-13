@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Lazzaroni amaretto]] #core
-- 1 oz fresh [[Lemon]] juice #balance
+- 1 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning
 - Garnish: 1 [[Orange]] half wheel and 1 [[Brandied Cherry]] on a skewer #seasoning

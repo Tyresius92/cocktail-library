@@ -17,7 +17,7 @@ date_tried:
 - 3/4 oz [[Tawny Port]] #core
 - 1/4 oz [[Simple Syrup]] (p45) #balance
 - 3/4 oz [[Heavy Cream]] #balance
-- 1 egg yolk #balance
+- 1 [[Egg Yolk]] #balance
 - Garnish: [[Nutmeg]] #seasoning
 
 ## Your Bar

@@ -14,7 +14,7 @@ date_tried: 2026-10-16
 
 ## Ingredients
 - 2 oz [[Cognac]] (preferably VSOP) #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 
 ## Your Bar

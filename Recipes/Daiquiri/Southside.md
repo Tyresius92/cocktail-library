@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 5 [[Mint]] leaves #seasoning
 - 2 oz [[Plymouth gin]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning
-- Garnish: 1 mint leaf #seasoning
+- Garnish: 1 [[Mint]] leaf #seasoning
 
 ## Your Bar
 ```dataviewjs

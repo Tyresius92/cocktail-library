@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Flor de Cana 4-Year White]] #core
 - 1/2 oz [[Luxardo maraschino liqueur]] #balance
-- 1 oz fresh [[Grapefruit]] juice #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Grapefruit Juice]] #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 1 tsp [[Simple Syrup]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -16,11 +16,11 @@ date_tried:
 - 1 1/2 oz [[Kappa pisco]] #core
 - 1 tsp [[Creme Yvette]] #core
 - 1/2 oz [[Singani 63]] #core
-- 1/2 oz fresh [[Lemon]] juice #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 - 1 [[Egg White]] #balance
-- Garnish: 1 lemon twist and 1 [[Edible Flower]] #seasoning
+- Garnish: 1 [[Lemon]] twist and 1 [[Edible Flower]] #seasoning
 
 ## Your Bar
 ```dataviewjs

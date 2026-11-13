@@ -17,9 +17,9 @@ date_tried:
 - 1/2 oz [[Singani 63]] #core
 - 1/2 oz [[St. George spiced pear liqueur]] #balance
 - 3/4 oz fresh [[Pineapple Juice]] #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] (p45) #balance
-- Garnish: 1 pineapple wedge #seasoning
+- Garnish: 1 [[Pineapple]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

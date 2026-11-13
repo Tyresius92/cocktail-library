@@ -14,10 +14,10 @@ date_tried:
 
 ## Ingredients
 - 2 oz blanco [[Tequila]] #core
-- 4 oz fresh [[Orange]] juice #balance
-- 1/4 oz fresh [[Lime]] juice #balance
+- 4 oz fresh [[Orange Juice]] #balance
+- 1/4 oz fresh [[Lime Juice]] #balance
 - 1/4 oz [[House Grenadine]] (p47) #balance
-- Garnish: 1 orange half wheel and 1 lime wedge #seasoning
+- Garnish: 1 [[Orange]] half wheel and 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

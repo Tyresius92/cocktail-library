@@ -18,7 +18,7 @@ date_tried:
 - 1/2 oz [[Hamilton Jamaican pot still gold rum]] #core
 - 3/4 oz [[Amaro CioCiaro]] #balance
 - 1 tsp [[Giffard Creme de Peche]] #seasoning
-- Garnish: 1 peach slice and [[Confectioners' Sugar]] #seasoning
+- Garnish: 1 [[Peach]] slice and [[Confectioners' Sugar]] #seasoning
 
 ## Your Bar
 ```dataviewjs

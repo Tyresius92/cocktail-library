@@ -2,6 +2,7 @@
 type: fresh
 in_stock: false
 approximate_cost:
+covered_by: ["Lemon"]
 ---
 
 # Meyer Lemon

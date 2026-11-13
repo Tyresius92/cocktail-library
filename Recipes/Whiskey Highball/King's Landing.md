@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Birch-Infused Cocchi Vermouth di Torino]] (p287) #core
 - 1/2 oz [[Clear Creek pear liqueur]] #balance
-- 1/4 oz fresh [[Lemon]] juice #balance
+- 1/4 oz fresh [[Lemon Juice]] #balance
 - 3 1/2 oz cold [[Cava]] #balance
-- Garnish: 1 lemon wheel #seasoning
+- Garnish: 1 [[Lemon]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

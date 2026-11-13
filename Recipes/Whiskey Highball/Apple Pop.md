@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Clear Creek pear brandy]] #core
 - 1 oz [[Dolin Blanc]] #balance
 - 5 oz [[Apple Celery Soda]] (p295) #balance
-- Garnish: 1 mint sprig and 1 celery leaf #seasoning
+- Garnish: 1 [[Mint]] sprig and 1 celery leaf #seasoning
 
 ## Your Bar
 ```dataviewjs

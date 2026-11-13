@@ -17,9 +17,9 @@ date_tried:
 - 1/2 oz [[Clear Creek 2-year apple brandy]] #core
 - 1 tsp [[Giffard Menthe-Pastille]] #seasoning
 - 1 dash [[Absinthe]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] (p45) #balance
-- Garnish: 1 mint sprig #seasoning
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

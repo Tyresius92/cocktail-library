@@ -17,11 +17,11 @@ date_tried:
 - 1 1/4 oz [[Ron del Barrilito Three Stars|Ron del Barrilito 3-Star rum]] #core
 - 3/4 oz [[Hamilton Demerara 151 Overproof rum]] #core
 - 1/2 oz [[Donn's Mix No. 1]] #balance
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Tailor Velvet Falernum]] #balance
 - 1 tsp [[House Grenadine]] #balance
 - 2 dashes [[Pernod absinthe|Pernod Absinthe]] #seasoning
-- Garnish: [[Mint]] sprig, 1 cherry, 1 orange slice, 1 parasol, 1 pineapple wedge #seasoning
+- Garnish: [[Mint]] sprig, 1 cherry, 1 [[Orange]] slice, 1 parasol, 1 [[Pineapple]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

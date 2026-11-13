@@ -14,8 +14,8 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Fords gin]] #core
-- 1/2 oz fresh [[Lime]] juice #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1 oz [[Simple Syrup]] #balance
 - 1 oz [[Heavy Cream]] #balance
 - 1 [[Egg White]] #balance

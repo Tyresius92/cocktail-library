@@ -16,7 +16,7 @@ date_tried:
 - 3/4 oz [[Beefeater 24 gin]] #core
 - 3/4 oz [[Amaro Montenegro]] #core
 - 3/4 oz [[Giffard Creme de Pamplemousse]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 
 ## Your Bar
 ```dataviewjs

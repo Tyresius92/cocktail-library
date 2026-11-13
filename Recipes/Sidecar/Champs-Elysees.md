@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 2 oz Cognac ([[Cognac]]) #core
 - 1/2 oz [[Green Chartreuse]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

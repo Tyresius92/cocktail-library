@@ -16,7 +16,7 @@ date_tried:
 - 2 oz [[Compass Box Asyla]] scotch #core
 - 3/4 oz [[Carpano Antica Formula vermouth]] #balance
 - 1/4 oz [[Benedictine]] #seasoning
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

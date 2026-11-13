@@ -33,6 +33,8 @@ for (const p of ing) if (p.category) { if (!byCat.has(p.category)) byCat.set(p.c
 const catsLower = new Map([...byCat.keys()].map(c => [c.toLowerCase(), c]));
 const genericCats = p => GENERIC[p.file.name] || (catsLower.has(p.file.name.toLowerCase()) ? [catsLower.get(p.file.name.toLowerCase())] : null);
 const nm = p => p.file.name;
+const coverNames = p => { const c = p.covered_by; if (!c) return []; return typeof c === "string" ? [c] : Array.from(c); };
+const haveItem = p => p.in_stock === true || coverNames(p).some(n => byName.get(n)?.in_stock === true);
 const sty = s => (s || "").toString();
 
 
@@ -53,7 +55,12 @@ async function ingredientNames(r) {
   if (!m) return null;
   const set = new Set(); set.lines = new Map();
   for (const x of m[1].matchAll(/\[\[([^\]|#]+)/g)) set.add(x[1].trim().toLowerCase());
-  for (const ln of m[1].split("\n")) for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); if (!set.lines.has(k)) set.lines.set(k, ln); }
+  const reqSet = new Set(), anySet = new Set();
+  for (const ln of m[1].split("\n")) {
+    const garnish = /^\s*-\s*Garnish:/i.test(ln);
+    for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); anySet.add(k); if (!garnish) reqSet.add(k); if (!set.lines.has(k)) set.lines.set(k, ln); }
+  }
+  set.optional = new Set([...anySet].filter(k => !reqSet.has(k)));
   return set;
 }
 
@@ -72,14 +79,14 @@ async function parse(r) {
     else { const gc = genericCats(p);
       if (gc) { const hint = styleHint(gc, names && names.lines && names.lines.get(base));
         reqs.push({ k: "gen", cats: gc, hint, key: "gen:" + p.file.name + (hint || ""), label: gc[0] + " (" + (hint || "any") + ")" }); }
-      else reqs.push({ k: "pantry", p, key: "item:" + nm(p), label: nm(p) }); }
+      else reqs.push({ k: "pantry", p, key: "item:" + nm(p), label: nm(p), optional: !!(names && names.optional && names.optional.has(base)) }); }
   }
   return { r, reqs };
 }
 
 // H = hypothetical purchase: {cat, style} for a bottle, {item} for a pantry item, or null.
 function reqState(q, H) {
-  if (q.k === "pantry") return (q.p.in_stock === true || (H && H.item === nm(q.p))) ? { ok: true, tier: 0 } : { ok: false };
+  if (q.k === "pantry") return (q.optional || haveItem(q.p) || (H && H.item && (H.item === nm(q.p) || coverNames(q.p).includes(H.item)))) ? { ok: true, tier: 0 } : { ok: false };
   if (q.k === "gen" && q.hint) {
     const styles = (byCat.get(q.cats[0]) || []).filter(isOwned).map(c => c.style);
     if (H && H.cat === q.cats[0]) styles.push(H.style);
@@ -117,9 +124,12 @@ for (const p of ing) if (p.category) {
     label: p.category + (s && s !== "standard" ? " · " + s : (s ? "" : " · style unlisted")) });
 }
 const pantrySeen = new Set();
-for (const [x, b] of base) for (const q of b.fails) if (q.k === "pantry" && !pantrySeen.has(nm(q.p))) {
-  pantrySeen.add(nm(q.p)); cands.push({ kind: "pantry", H: { item: nm(q.p) }, label: nm(q.p) });
-}
+for (const [x, b] of base) for (const q of b.fails) if (q.k === "pantry")
+  for (const n of [nm(q.p), ...coverNames(q.p)]) {
+    const it = byName.get(n);
+    if (!it || it.in_stock === true || pantrySeen.has(n)) continue;
+    pantrySeen.add(n); cands.push({ kind: "pantry", H: { item: n }, label: n });
+  }
 
 const rootTitle = r => (ROOTS.find(t => t[0] === r.root) || [0, "Other"])[1];
 const L = x => x.r.file.link;
@@ -178,7 +188,7 @@ function callout(a) {
 }
 
 dv.paragraph("Ranked by how many drinks you **can't make at all** become makeable if you add the item. **One more away** counts drinks where this purchase fixes one gap and exactly one other gap remains. Bottles are grouped by category and style: a same-style bottle makes a drink a close swap, a different style a stretch swap. Open a row below the table for the drinks.");
-dv.paragraph("*Based on " + parsed.length + " recipes, " + ing.filter(p => p.category && isOwned(p)).length + " bottles and " + ing.filter(p => !p.category && p.in_stock === true).length + " other items in stock. " + base.filter(([, b]) => !b.ok).length + " recipes are currently blocked.*");
+dv.paragraph("*Based on " + parsed.length + " recipes, " + ing.filter(p => p.category && isOwned(p)).length + " bottles and " + ing.filter(p => !p.category && haveItem(p)).length + " other items in stock. " + base.filter(([, b]) => !b.ok).length + " recipes are currently blocked.*");
 
 for (const [kind, title, firstCol] of [["bottle", "Bottles to buy", "Buy"], ["pantry", "Pantry and fresh", "Get"]]) {
   const rows = mergeRows(all.filter(a => a.c.kind === kind));

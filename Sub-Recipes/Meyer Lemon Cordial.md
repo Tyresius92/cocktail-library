@@ -9,10 +9,10 @@ page: 285
 
 ## Ingredients
 - 500 g [[Unbleached Cane Sugar]]
-- 250 g strained fresh Meyer lemon juice
+- 250 g strained fresh Meyer [[Lemon Juice]]
 - 250 g filtered water
 - 100 g [[Aylesbury Duck vodka]]
-- 15 g Meyer lemon zest
+- 15 g [[Meyer Lemon]] zest
 - 2 g citric acid powder
 - 0.5 g kosher salt
 

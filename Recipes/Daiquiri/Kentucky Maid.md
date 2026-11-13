@@ -17,8 +17,8 @@ date_tried:
 - 3 slices [[Cucumber]] #seasoning
 - 3/4 oz [[Simple Syrup]] #balance
 - 2 oz [[Elijah Craig Small Batch Bourbon]] #core
-- 1 oz fresh [[Lime]] juice #balance
-- Garnish: 1 mint sprig skewered through 1 cucumber wheel #seasoning
+- 1 oz fresh [[Lime Juice]] #balance
+- Garnish: 1 [[Mint]] sprig skewered through 1 [[Cucumber]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

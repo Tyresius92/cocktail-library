@@ -13,13 +13,13 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- 1 lime wedge #seasoning
+- 1 [[Lime]] wedge #seasoning
 - Rim: [[Kosher Salt]] #seasoning
 - 1 3/4 oz blanco [[Tequila]] #core
 - 1/4 oz [[Giffard Creme de Pamplemousse]] #balance
-- 1/4 oz fresh [[Lime]] juice #balance
+- 1/4 oz fresh [[Lime Juice]] #balance
 - 4 oz cold [[Homemade Grapefruit Soda]] (p295) #balance
-- Garnish: 1 grapefruit wedge #seasoning
+- Garnish: 1 [[Grapefruit]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

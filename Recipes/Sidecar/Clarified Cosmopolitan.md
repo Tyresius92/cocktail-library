@@ -15,12 +15,12 @@ date_tried:
 ## Ingredients
 - 1 1/4 oz [[Vodka]] #core
 - 3/4 oz [[Cointreau]] #balance
-- 1/2 oz clarified lime juice (see [[_Notes - Clarifying Juice]], p146) #balance
+- 1/2 oz clarified [[Lime Juice]] (see [[_Notes - Clarifying Juice]], p146) #balance
 - 1/2 oz [[Pure unsweetened cranberry juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
-- 1 lemon twist #seasoning
-- 1 lime twist #seasoning
-- Garnish: 1 orange twist #seasoning
+- 1 [[Lemon]] twist #seasoning
+- 1 [[Lime]] twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

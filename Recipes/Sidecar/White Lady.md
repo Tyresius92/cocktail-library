@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 2 oz [[Plymouth gin]] #core
 - 1/2 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
 - 1 [[Egg White]] #balance
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

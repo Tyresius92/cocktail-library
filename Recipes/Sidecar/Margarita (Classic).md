@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 2 oz [[Siembra Azul blanco tequila]] #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 - Rim: [[Kosher Salt]] #seasoning
 
 ## Your Bar

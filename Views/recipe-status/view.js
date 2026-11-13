@@ -23,6 +23,8 @@ for (const p of ing) if (p.category) { if (!byCat.has(p.category)) byCat.set(p.c
 const catsLower = new Map([...byCat.keys()].map(c => [c.toLowerCase(), c]));
 const genericCats = p => GENERIC[p.file.name] || (catsLower.has(p.file.name.toLowerCase()) ? [catsLower.get(p.file.name.toLowerCase())] : null);
 const nm = p => p.file.name;
+const coverNames = p => { const c = p.covered_by; if (!c) return []; return typeof c === "string" ? [c] : Array.from(c); };
+const haveItem = p => p.in_stock === true || coverNames(p).some(n => byName.get(n)?.in_stock === true);
 const lk = p => p.file.link || ("[[" + nm(p) + "]]");
 const dedupe = ps => { const out = []; for (const p of ps) if (!out.some(o => isSame(o, p))) out.push(p); return out; };
 const names = ps => dedupe(ps).map(lk).join(" or ");
@@ -48,8 +50,11 @@ const m = txt.match(/^##\s+Ingredients[^\n]*\n([\s\S]*?)(?=^##\s|(?![\s\S]))/m);
 if (!m) { dv.paragraph("*Couldn't read this note's ingredient list.*"); }
 else {
   const wanted = new Set(), lines = new Map();
-  for (const ln of m[1].split("\n")) for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); wanted.add(k); if (!lines.has(k)) lines.set(k, ln); }
-  const have = [], missing = [], swaps = [], prep = [];
+  const reqSet = new Set();
+  for (const ln of m[1].split("\n")) { const garnish = /^\s*-\s*Garnish:/i.test(ln);
+    for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); wanted.add(k); if (!garnish) reqSet.add(k); if (!lines.has(k)) lines.set(k, ln); } }
+  const optional = new Set([...wanted].filter(k => !reqSet.has(k)));
+  const have = [], missing = [], swaps = [], prep = [], garnishMissing = [];
   let tier = 0; const seen = new Set();
   for (const l of r.file.outlinks) {
     const path = l.path || "";
@@ -81,12 +86,17 @@ else {
       swaps.push("**" + names(dedupe(owned).slice(0, 3)) + "** for " + label + " (book calls for " + hint + ")");
       continue;
     }
-    if (p.in_stock === true) have.push(lk(p)); else missing.push(lk(p));
+    const via = coverNames(p).find(n => byName.get(n)?.in_stock === true);
+    if (p.in_stock === true) have.push(lk(p));
+    else if (via) have.push(lk(p) + " (using [[" + via + "]])");
+    else if (optional.has(base)) garnishMissing.push(lk(p));
+    else missing.push(lk(p));
   }
   const verdict = missing.length ? "Missing something" : TIER[tier];
-  const out = ["**" + verdict + "**" + (prep.length ? " · prep: " + prep.map(l => l.toString()).join(", ") : "")];
+  const out = ["**" + verdict + "**" + (prep.length ? " · prep: " + prep.map(l => "[[" + (l.path || "").split("/").pop().replace(/\.md$/, "") + "]]").join(", ") : "")];
   if (have.length) out.push("**Have:** " + have.join(" · "));
   if (missing.length) out.push("**Missing:**\n" + missing.map(x => "- " + x).join("\n"));
+  if (garnishMissing.length) out.push("**Optional garnish you don't have:** " + garnishMissing.join(" · ") + ". Skip it or substitute.");
   if (swaps.length) out.push("**Could swap:**\n" + swaps.map(x => "- " + x).join("\n"));
   if (!swaps.length && !missing.length && have.length) out.push("*Nothing to swap: you can make this as written.*");
   dv.paragraph(out.join("\n\n"));

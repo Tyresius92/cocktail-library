@@ -16,7 +16,7 @@ date_tried:
 - 3/4 oz London dry gin ([[Gin]]) #core
 - 3/4 oz [[Green Chartreuse]] #balance
 - 3/4 oz [[Luxardo maraschino liqueur]] #balance
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 
 ## Your Bar
 ```dataviewjs

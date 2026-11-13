@@ -16,7 +16,7 @@ date_tried:
 - 3/4 oz London dry gin ([[Gin]]) #core
 - 3/4 oz [[Lillet Blanc]] #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 2 dashes absinthe ([[Pernod absinthe]]) #seasoning
 
 ## Your Bar

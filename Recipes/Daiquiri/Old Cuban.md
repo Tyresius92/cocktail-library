@@ -14,12 +14,12 @@ date_tried:
 
 ## Ingredients
 - 1 1/2 oz [[Bacardi 8-year aged rum]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1 oz [[Simple Syrup]] #balance
 - 2 dashes [[Angostura Bitters]] #seasoning
 - 6 [[Mint]] leaves #seasoning
 - 2 oz cold [[Dry Champagne]] #balance
-- Garnish: 1 mint leaf #seasoning
+- Garnish: 1 [[Mint]] leaf #seasoning
 
 ## Your Bar
 ```dataviewjs

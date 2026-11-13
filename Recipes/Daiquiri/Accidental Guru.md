@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 1 oz [[Bushmills Original Irish whiskey]] #core
 - 1/2 oz [[Giffard Creme de Peche de Vigne]] #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[House Ginger Syrup]] #balance
 - 3 1/2 oz cold [[Blanche de Bruxelles beer]] (or another wheat beer) #balance
-- Garnish: 1 lime wheel #seasoning
+- Garnish: 1 [[Lime]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

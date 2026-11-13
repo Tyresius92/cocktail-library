@@ -13,12 +13,12 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- Rim: kosher salt and pepper, equal parts #seasoning
-- 1 lemon wedge (for rimming) #seasoning
+- Rim: [[Kosher Salt]] and pepper, equal parts #seasoning
+- 1 [[Lemon]] wedge (for rimming) #seasoning
 - 2 oz [[Aylesbury Duck vodka]] #core
 - 5 oz [[Basic Bloody Mary Mix]] (p295) #balance
-- 1/4 oz fresh [[Lemon]] juice #balance
-- Garnish: 1 lemon wedge and 1 [[Celery Stalk]] #seasoning
+- 1/4 oz fresh [[Lemon Juice]] #balance
+- Garnish: 1 [[Lemon]] wedge and 1 [[Celery Stalk]] #seasoning
 
 ## Your Bar
 ```dataviewjs

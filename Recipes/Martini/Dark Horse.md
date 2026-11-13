@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Bordelet Calvados]] #core
 - 1/2 oz [[Amaro Nardini]] #seasoning
 - 1/2 oz [[Grand Marnier]] #balance
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

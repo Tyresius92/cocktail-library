@@ -18,9 +18,9 @@ date_tried:
 - 1/4 oz [[Blume Marillen apricot eau-de-vie]] #seasoning
 - 1/4 oz [[Rothman & Winter apricot liqueur]] #seasoning
 - 1 tsp [[Giffard Creme de Peche]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1 tsp [[House Ginger Syrup]] (p48) #balance
-- Garnish: 1 orange twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

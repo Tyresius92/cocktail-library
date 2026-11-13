@@ -18,10 +18,10 @@ date_tried:
 - 1 1/2 oz [[Bombay gin]] #core
 - 1/2 oz blanc vermouth ([[Dolin Blanc]]) #core
 - 1/2 oz [[Chareau California Aloe Liqueur]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1 dash [[St. George absinthe]] #seasoning
 - 1 drop [[Salt Solution]] #seasoning
-- Garnish: 1 basil leaf, preferably Thai basil #seasoning
+- Garnish: 1 [[Basil]] leaf, preferably Thai basil #seasoning
 
 ## Your Bar
 ```dataviewjs

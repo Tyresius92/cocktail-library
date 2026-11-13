@@ -16,10 +16,10 @@ date_tried:
 - 2 oz cold [[Tonic Water]] #balance
 - 1 oz [[Quinta do Infantado white port]] #core
 - 1 oz [[Salers Gentiane]] #core
-- 1 oz fresh [[Lemon]] juice #balance
+- 1 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 - 2 dashes [[Peychaud's bitters]] #seasoning
-- Garnish: 1 grapefruit half wheel #seasoning
+- Garnish: 1 [[Grapefruit]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

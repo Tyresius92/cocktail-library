@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Rittenhouse Rye]] #core
 - 1/2 oz [[Pierre Ferrand 1840 Cognac]] #core
 - 1 1/2 oz [[Blood Orange-Infused Carpano Antica Formula]] #balance
-- Garnish: 1 blood orange wheel #seasoning
+- Garnish: 1 [[Orange|blood orange]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

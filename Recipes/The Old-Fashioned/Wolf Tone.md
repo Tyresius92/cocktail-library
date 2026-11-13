@@ -18,7 +18,7 @@ date_tried:
 - 3/4 oz [[St-Germain]] #balance
 - 1 dash [[House Orange Bitters]] (p295) #seasoning
 - 1 drop [[Terra Spice eucalyptus extract]] #seasoning
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

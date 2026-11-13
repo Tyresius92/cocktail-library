@@ -17,10 +17,10 @@ date_tried:
 - 3/4 oz [[Pierre Ferrand Ambre Cognac]] #core
 - 3/4 oz [[Appleton Estate Reserve Blend]] rum #core
 - 3/4 oz [[Giffard Creme de Peche de Vigne]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Cane Sugar Syrup]] #balance
-- 1 strip lemon peel #seasoning
-- Garnish: 1 lemon wheel and [[Nutmeg]] #seasoning
+- 1 strip [[Lemon]] peel #seasoning
+- Garnish: 1 [[Lemon]] wheel and [[Nutmeg]] #seasoning
 
 ## Your Bar
 ```dataviewjs

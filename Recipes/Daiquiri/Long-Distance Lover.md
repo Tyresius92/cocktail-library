@@ -13,9 +13,9 @@ date_tried:
 [[Daiquiri]]
 
 ## Ingredients
-- 1 orange half wheel #seasoning
-- 1 lemon wedge #seasoning
-- 1 pineapple wedge #seasoning
+- 1 [[Orange]] half wheel #seasoning
+- 1 [[Lemon]] wedge #seasoning
+- 1 [[Pineapple]] wedge #seasoning
 - 3/4 oz [[House Orgeat]] (p285) #balance
 - 1 1/2 oz [[Lustau Los Arcos amontillado sherry]] #core
 - 3/4 oz [[St. George spiced pear liqueur]] #balance
@@ -23,7 +23,7 @@ date_tried:
 - 1/4 oz [[Copper & Kings unaged apple brandy]] #core
 - 1/2 tsp [[Kummel liqueur]] #seasoning
 - 1/2 tsp [[Amaro di Angostura]] #seasoning
-- Garnish: 2 pineapple leaves, 1 orange half wheel, 1 lemon wheel and 1 cinnamon stick #seasoning
+- Garnish: 2 [[Pineapple]] leaves, 1 [[Orange]] half wheel, 1 [[Lemon]] wheel and 1 [[Cinnamon Stick]] #seasoning
 
 ## Your Bar
 ```dataviewjs

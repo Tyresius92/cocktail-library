@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 oz London dry gin ([[Gin]]) #core
 - 4 oz cold [[Tonic Water]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

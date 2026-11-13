@@ -15,11 +15,11 @@ date_tried:
 ## Ingredients
 - 2 oz cold [[Seltzer]] #balance
 - 2 oz [[Beefeater London Dry gin]] #core
-- 1 1/2 oz fresh [[Grapefruit]] juice #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1 1/2 oz fresh [[Grapefruit Juice]] #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 4 dashes [[Peychaud's bitters]] #seasoning
-- Garnish: 1 grapefruit half wheel #seasoning
+- Garnish: 1 [[Grapefruit]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

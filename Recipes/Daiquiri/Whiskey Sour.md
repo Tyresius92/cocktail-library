@@ -14,9 +14,9 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Elijah Craig Small Batch Bourbon]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 lemon wedge #seasoning
+- Garnish: 1 [[Lemon]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

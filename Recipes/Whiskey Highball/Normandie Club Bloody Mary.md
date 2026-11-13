@@ -13,13 +13,13 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- 1 lemon wedge #seasoning
+- 1 [[Lemon]] wedge #seasoning
 - Rim: [[Lemon Pepper Salt]] (p297) #seasoning
 - 1 1/2 oz [[Krogstad aquavit]] #core
 - 5 oz [[Normandie Club Bloody Mary Mix]] (p296) #balance
-- 1/4 oz fresh [[Lemon]] juice #balance
-- 1/4 oz fresh [[Lime]] juice #balance
-- Garnish: 1 [[Cherry Tomato]] and 1 lemon wedge on a skewer #seasoning
+- 1/4 oz fresh [[Lemon Juice]] #balance
+- 1/4 oz fresh [[Lime Juice]] #balance
+- Garnish: 1 [[Cherry Tomato]] and 1 [[Lemon]] wedge on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

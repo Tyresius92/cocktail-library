@@ -14,8 +14,8 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Elijah Craig Small Batch Bourbon]] #core
-- 1 oz fresh [[Grapefruit]] juice #balance
-- 1 tsp fresh [[Lemon]] juice #balance
+- 1 oz fresh [[Grapefruit Juice]] #balance
+- 1 tsp fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Honey Syrup]] #balance
 
 ## Your Bar

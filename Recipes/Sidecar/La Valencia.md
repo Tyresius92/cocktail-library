@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Chamomile-Infused Rye Whiskey]] (p288) #core
 - 1 1/2 oz [[La Gitana manzanilla sherry]] #core
 - 1/2 oz [[Chartreuse]] (yellow) #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning
 

@@ -43,6 +43,8 @@ const catsLower = new Map([...byCat.keys()].map(c => [c.toLowerCase(), c]));
 const genericCats = p => GENERIC[p.file.name] || (catsLower.has(p.file.name.toLowerCase()) ? [catsLower.get(p.file.name.toLowerCase())] : null);
 const ownedIn = (cats, p) => (TRUST_CATEGORY_FLAG && p.in_stock === true) || cats.some(c => (byCat.get(c) || []).some(isOwned));
 const nm = p => p.file.name;
+const coverNames = p => { const c = p.covered_by; if (!c) return []; return typeof c === "string" ? [c] : Array.from(c); };
+const haveItem = p => p.in_stock === true || coverNames(p).some(n => byName.get(n)?.in_stock === true);
 const lc = s => (s || "").toString();
 
 
@@ -64,12 +66,17 @@ async function ingredientNames(r) {
   if (!m) return null;
   const set = new Set(); set.lines = new Map();
   for (const x of m[1].matchAll(/\[\[([^\]|#]+)/g)) set.add(x[1].trim().toLowerCase());
-  for (const ln of m[1].split("\n")) for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); if (!set.lines.has(k)) set.lines.set(k, ln); }
+  const reqSet = new Set(), anySet = new Set();
+  for (const ln of m[1].split("\n")) {
+    const garnish = /^\s*-\s*Garnish:/i.test(ln);
+    for (const x of ln.matchAll(/\[\[([^\]|#]+)/g)) { const k = x[1].trim().toLowerCase(); anySet.add(k); if (!garnish) reqSet.add(k); if (!set.lines.has(k)) set.lines.set(k, ln); }
+  }
+  set.optional = new Set([...anySet].filter(k => !reqSet.has(k)));
   return set;
 }
 
 async function evaluate(r) {
-  const swaps = [], blocked = [], prep = [];
+  const swaps = [], blocked = [], prep = [], garnish = [];
   let tier = 0;
   const names = await ingredientNames(r);
   const unfiltered = !names;  // fall back to every ingredient link in the note (old dashboard behaviour)
@@ -106,10 +113,10 @@ async function evaluate(r) {
           }
         }
       }
-      else if (p.in_stock !== true) blocked.push(nm(p));
+      else if (!haveItem(p)) { if (names && names.optional && names.optional.has(base)) garnish.push(nm(p)); else blocked.push(nm(p)); }
     }
   }
-  return { r, tier, swaps, blocked, prep, matched, unfiltered };
+  return { r, tier, swaps, blocked, prep, garnish, matched, unfiltered };
 }
 
 function swapText(s) {
@@ -127,11 +134,11 @@ function swapText(s) {
 const recipes = dv.pages('"Recipes"').where(r => !r.file.name.includes("_Notes")).array();
 const results = await Promise.all(recipes.map(evaluate));
 
-dv.paragraph("Tiers: **As written** = you own every named bottle. **Close swap** = same category and style (Tanqueray for Beefeater). **Stretch swap** = same category, different or unlisted style. Produce and pantry items are exact-only. A *Prep* entry means a sub-recipe (infusion, syrup, etc.) has to be made first. Drinks missing a whole category of bottle aren't listed; the line under each root says what's blocking them.");
+dv.paragraph("Tiers: **As written** = you own every named bottle. **Close swap** = same category and style (Tanqueray for Beefeater). **Stretch swap** = same category, different or unlisted style. Produce and pantry items are exact-only, except that a garnish-only item is optional (it shows as *skip garnish*) and fresh fruit also counts for its own juice. A *Prep* entry means a sub-recipe (infusion, syrup, etc.) has to be made first. Drinks missing a whole category of bottle aren't listed; the line under each root says what's blocking them.");
 
 const unread = results.filter(x => x.unfiltered).length;
 const totalMatched = results.reduce((a, x) => a + x.matched, 0);
-dv.paragraph("*Checked " + results.length + " recipes against " + ing.filter(p => p.category && isOwned(p)).length + " bottles and " + ing.filter(p => !p.category && p.in_stock === true).length + " other items marked in stock" + "; " + totalMatched + " ingredient links matched" + (unread ? "; WARNING: " + unread + " recipes fell back to unfiltered links" : "") + (totalMatched === 0 ? "; WARNING: no ingredient links matched, results are not reliable" : "") + ".*");
+dv.paragraph("*Checked " + results.length + " recipes against " + ing.filter(p => p.category && isOwned(p)).length + " bottles and " + ing.filter(p => !p.category && haveItem(p)).length + " other items marked in stock" + "; " + totalMatched + " ingredient links matched" + (unread ? "; WARNING: " + unread + " recipes fell back to unfiltered links" : "") + (totalMatched === 0 ? "; WARNING: no ingredient links matched, results are not reliable" : "") + ".*");
 
 const byRootList = list => ROOTS.map(([tag, title]) => {
   const names = list.filter(x => x.r.root === tag).sort((a, b) => nm(a.r).localeCompare(nm(b.r))).map(x => x.r.file.link);
@@ -157,9 +164,9 @@ for (const [tag, title, blurb] of ROOTS) {
       .sort((a, b) => a.swaps.length - b.swaps.length || a.prep.length - b.prep.length || nm(a.r).localeCompare(nm(b.r)));
     if (!rows.length) continue;
     dv.header(4, TIER_NAMES[t] + " (" + rows.length + ")");
-    const head = t === 0 ? ["Drink", "Type", "Page", "Prep"] : ["Drink", "Type", "Page", "Prep", "What changes"];
+    const head = t === 0 ? ["Drink", "Type", "Page", "Prep / notes"] : ["Drink", "Type", "Page", "Prep / notes", "What changes"];
     dv.table(head, rows.map(x => {
-      const base = [x.r.file.link, rootType(x.r), x.r.page, x.prep.length ? x.prep.join(", ") : ""];
+      const base = [x.r.file.link, rootType(x.r), x.r.page, [x.prep.length ? "prep: " + x.prep.join(", ") : "", x.garnish.length ? "skip garnish: " + x.garnish.join(", ") : ""].filter(Boolean).join("; ")];
       return t === 0 ? base : base.concat([x.swaps.map(swapText).join("<br><br>")]);
     }));
   }

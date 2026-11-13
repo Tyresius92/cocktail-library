@@ -19,8 +19,8 @@ date_tried:
 - 3/4 oz [[Cimarron Blanco tequila]] #core
 - 3/4 oz [[Plantation 3 Stars White]] rum #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
-- Garnish: 1 lemon wedge #seasoning
+- 3/4 oz fresh [[Lemon Juice]] #balance
+- Garnish: 1 [[Lemon]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

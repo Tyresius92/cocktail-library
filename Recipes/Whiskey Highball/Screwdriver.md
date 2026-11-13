@@ -13,7 +13,7 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- 4 oz fresh [[Orange]] juice #balance
+- 4 oz fresh [[Orange Juice]] #balance
 - [[Citric Acid Solution]] (p298), if needed #seasoning
 - 2 oz [[Vodka]] #core
 

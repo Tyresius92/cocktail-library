@@ -14,9 +14,9 @@ date_tried:
 
 ## Ingredients
 - 2 oz white rum ([[Rum]]) #core
-- 1/4 oz fresh [[Lime]] juice #balance
+- 1/4 oz fresh [[Lime Juice]] #balance
 - 4 oz cold [[Coca-Cola]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

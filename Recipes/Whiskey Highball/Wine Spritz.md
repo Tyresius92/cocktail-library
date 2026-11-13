@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 4 oz cold, crisp white or rose wine #core
 - 2 oz cold [[Seltzer]] #balance
-- Garnish: 1 lemon wheel #seasoning
+- Garnish: 1 [[Lemon]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

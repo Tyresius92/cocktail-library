@@ -8,7 +8,7 @@ page: 295
 # Donn's Mix No. 1
 
 ## Ingredients
-- 400 g strained fresh grapefruit juice
+- 400 g strained fresh [[Grapefruit Juice]]
 - 200 g [[Cinnamon Syrup]] (p52)
 
 ## Method

@@ -14,8 +14,8 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Plymouth gin]] #core
-- 1/4 oz fresh [[Lime]] juice #balance
-- 1/4 oz fresh [[Lemon]] juice #balance
+- 1/4 oz fresh [[Lime Juice]] #balance
+- 1/4 oz fresh [[Lemon Juice]] #balance
 - 1 oz [[Simple Syrup]] (p45) #balance
 - 1 oz [[Heavy Cream]] #balance
 - 1 egg white ([[Egg White]]) #balance

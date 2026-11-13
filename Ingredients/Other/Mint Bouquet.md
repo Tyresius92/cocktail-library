@@ -2,6 +2,7 @@
 type: ingredient
 in_stock: false
 approximate_cost:
+covered_by: ["Mint"]
 ---
 
 # Mint Bouquet

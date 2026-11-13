@@ -16,11 +16,11 @@ date_tried:
 - 1 1/2 oz [[Dolin Blanc]] #core
 - 1/2 oz [[Clear Creek Douglas fir brandy]] #core
 - 3 oz clarified cucumber water (see [[_Notes - Clarifying Juice]], p146) #balance
-- 1/2 oz clarified lime juice (see [[_Notes - Clarifying Juice]], p146) #balance
+- 1/2 oz clarified [[Lime Juice]] (see [[_Notes - Clarifying Juice]], p146) #balance
 - 1/2 oz [[Simple Syrup]] (p45) #balance
 - 1 drop [[Salt Solution]] (p298) #seasoning
 - 1/2 oz still water #balance
-- Garnish: 1 mint sprig #seasoning
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 2 oz citrus vodka ([[Vodka]]) #core
 - 3/4 oz [[Cointreau]] #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Pure unsweetened cranberry juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
-- Garnish: lime wheel #seasoning
+- Garnish: [[Lime]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

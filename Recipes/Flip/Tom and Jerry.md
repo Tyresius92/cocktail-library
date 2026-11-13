@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[El Dorado 12-Year rum]] #core
 - 1 oz [[Pierre Ferrand Ambre Cognac]] #core
 - 2 oz [[Tom and Jerry Batter]] (p296) #balance
-- 2 oz hot milk #balance
+- 2 oz hot [[Milk]] #balance
 - Garnish: [[Nutmeg]] #seasoning
 
 ## Your Bar

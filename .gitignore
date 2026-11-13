@@ -1,5 +1,13 @@
 .DS_Store
+.trash/
+
+# Obsidian: per-machine state
 .obsidian/workspace.json
 .obsidian/workspace-mobile.json
 .obsidian/cache
-.trash/
+
+# Plugins: install from Community plugins. Keep only Dataview's settings.
+.obsidian/plugins/*
+!.obsidian/plugins/dataview/
+.obsidian/plugins/dataview/*
+!.obsidian/plugins/dataview/data.json

@@ -16,7 +16,7 @@ date_tried:
 - 3/4 oz [[Grey Goose vodka]] #core
 - 3/4 oz [[Aperol]] #balance
 - 1/2 oz [[Amaro Nonino]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Strawberry Cream Syrup]] (p286) #balance
 - Garnish: 1 [[Strawberry]] slice #seasoning
 

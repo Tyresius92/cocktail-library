@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz London dry [[Gin]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Honey Syrup]] #balance
 
 ## Your Bar

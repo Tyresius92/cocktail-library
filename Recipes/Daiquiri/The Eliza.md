@@ -16,7 +16,7 @@ date_tried:
 - 1/2 oz [[Aviation gin]] #core
 - 1/4 oz [[Clear Creek pear brandy]] #core
 - 1/4 oz [[Giffard Cassis Noir de Bourgogne]] #core
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 1 dash [[Scrappy's lavender bitters]] #seasoning
 - 4 oz cold [[Dry Sparkling Wine]] #balance

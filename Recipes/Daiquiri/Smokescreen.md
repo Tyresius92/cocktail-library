@@ -18,8 +18,8 @@ date_tried:
 - 1 oz [[Famous Grouse Scotch]] #core
 - 1/2 oz [[Laphroaig 10-year scotch]] #core
 - 1/4 oz [[Green Chartreuse]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
-- Garnish: 1 mint sprig #seasoning
+- 3/4 oz fresh [[Lime Juice]] #balance
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

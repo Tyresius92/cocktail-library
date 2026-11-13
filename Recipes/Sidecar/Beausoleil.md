@@ -16,9 +16,9 @@ date_tried:
 - 1 1/2 oz [[Dolin dry vermouth]] #core
 - 1/2 oz [[Clear Creek Pinot Noir grappa]] #core
 - 1 oz [[Meletti limoncello]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 thyme sprig #seasoning
+- Garnish: 1 [[Thyme]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

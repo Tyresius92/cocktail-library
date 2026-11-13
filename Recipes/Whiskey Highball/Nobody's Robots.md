@@ -15,12 +15,12 @@ date_tried:
 ## Ingredients
 - 1 1/4 oz [[Absolut vodka]] #core
 - 1 oz [[Williams & Humbert Dry Sack sherry]] #balance
-- 1 oz clarified orange juice (see [[_Notes - Clarifying Juice]], p146) #balance
+- 1 oz clarified [[Orange Juice]] (see [[_Notes - Clarifying Juice]], p146) #balance
 - 1 oz [[Vanilla Lactic Syrup]] (p286) #balance
 - 1 tsp [[Citric Acid Solution]] (p298) #balance
 - 1 drop [[Terra Spice orange extract]] #seasoning
 - 2 1/2 oz cold [[Seltzer]] #balance
-- Garnish: 1 orange half wheel #seasoning
+- Garnish: 1 [[Orange]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

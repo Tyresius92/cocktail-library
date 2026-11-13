@@ -13,7 +13,7 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- 1 oz fresh peach puree (see [[_Notes - Making Fruit Purees]]) #balance
+- 1 oz fresh [[Peach]] puree (see [[_Notes - Making Fruit Purees]]) #balance
 - 5 oz cold [[Prosecco]] #core
 
 ## Your Bar

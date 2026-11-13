@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 oz [[Gin]] #core
 - 3/4 oz [[Dry Vermouth]] #balance
-- Garnish: 1 [[Lemon]] twist or olive #seasoning
+- Garnish: 1 [[Lemon]] twist or [[Cocktail Olive|olive]] #seasoning
 
 ## Your Bar
 ```dataviewjs

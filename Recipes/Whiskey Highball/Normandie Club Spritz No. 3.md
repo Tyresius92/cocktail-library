@@ -18,10 +18,10 @@ date_tried:
 - 1/4 oz [[Pueblo Viejo Blanco tequila]] #seasoning
 - 1/4 oz [[Campo de Encanto Grand and Noble pisco]] #seasoning
 - 1/4 oz [[Giffard Creme de Pamplemousse]] #seasoning
-- 1 oz clarified grapefruit juice (see [[_Notes - Clarifying Juice]], p146) #balance
-- 1/2 oz clarified lemon juice (see [[_Notes - Clarifying Juice]], p146) #balance
+- 1 oz clarified [[Grapefruit Juice]] (see [[_Notes - Clarifying Juice]], p146) #balance
+- 1/2 oz clarified [[Lemon Juice]] (see [[_Notes - Clarifying Juice]], p146) #balance
 - 2 1/2 oz cold [[Seltzer]] #balance
-- Garnish: 1 grapefruit half wheel #seasoning
+- Garnish: 1 [[Grapefruit]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

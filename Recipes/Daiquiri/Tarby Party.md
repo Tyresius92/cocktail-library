@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 1 3/4 oz [[Diplomatico Blanco Reserve rum]] #core
 - 1/4 oz [[Neisson rhum agricole blanc]] #core
-- 1 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

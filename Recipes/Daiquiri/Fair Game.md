@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Williams & Humbert Dry Sack sherry]] #core
 - 1 oz [[Appleton Estate Reserve Blend rum]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Simple Syrup]] (p45) #balance
 - 1 tsp [[Orange Marmalade]] #balance
-- Garnish: 1 mint sprig #seasoning
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Flor de Cana 4-Year White]] #core
 - 1/2 oz [[Pierre Ferrand 1840 Cognac]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Cinnamon Syrup]] #balance
 
 ## Your Bar

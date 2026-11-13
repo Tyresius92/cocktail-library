@@ -16,7 +16,7 @@ date_tried:
 - 1 1/2 oz London dry gin ([[Gin]]) #core
 - 3/4 oz [[Lillet Blanc]] #balance
 - 3/4 oz [[Giffard white creme de cacao]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 
 ## Your Bar
 ```dataviewjs

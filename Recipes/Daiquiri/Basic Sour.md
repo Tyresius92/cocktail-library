@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz spirit #core
-- 3/4 oz fresh [[Lemon]] or [[Lime]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] or [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 
 ## Your Bar

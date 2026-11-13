@@ -13,7 +13,7 @@ date_tried:
 [[Flip]]
 
 ## Ingredients
-- 1 1/2 oz aged rum #core
+- 1 1/2 oz aged rum ([[Rum]]) #core
 - 1/2 oz [[Coffee Liqueur]] #balance
 - 1/4 oz [[Faretti Biscotti Famosi liqueur]] #seasoning
 - 1 oz [[Heavy Cream]] #balance

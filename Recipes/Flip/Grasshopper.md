@@ -16,8 +16,8 @@ date_tried:
 - 1 oz [[Tempus Fugit Creme de Menthe]] #core
 - 1 oz [[Giffard white creme de cacao]] #core
 - 1 oz [[Heavy Cream]] #balance
-- 8 mint leaves #seasoning
-- Garnish: 1 mint leaf #seasoning
+- 8 [[Mint]] leaves #seasoning
+- Garnish: 1 [[Mint]] leaf #seasoning
 
 ## Your Bar
 ```dataviewjs

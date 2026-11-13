@@ -16,11 +16,11 @@ date_tried:
 - 1 oz [[Dolin Blanc]] #core
 - 1/4 oz [[St. George raspberry brandy]] #seasoning
 - 1/4 oz [[Aperol]] #seasoning
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] (p45) #balance
 - 1 tsp [[Orange Marmalade]] #balance
 - 3 oz [[Rose Cremant]] #balance
-- Garnish: 1 mint sprig and 1 [[Raspberry]] #seasoning
+- Garnish: 1 [[Mint]] sprig and 1 [[Raspberry]] #seasoning
 
 ## Your Bar
 ```dataviewjs

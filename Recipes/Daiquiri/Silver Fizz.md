@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 oz [[Beefeater London Dry gin]] #core
 - 3/4 oz [[Simple Syrup]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1 [[Egg White]] #balance
 - 2 oz cold [[Seltzer]] #balance
 

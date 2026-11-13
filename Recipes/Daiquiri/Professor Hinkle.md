@@ -17,8 +17,8 @@ date_tried:
 - 1/2 oz [[Clear Creek raspberry brandy]] #core
 - 1/2 oz [[Dolin Blanc]] #balance
 - 1/4 oz [[Aperol]] #seasoning
-- 3/4 oz fresh grapefruit juice #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Grapefruit Juice]] #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[House Orgeat]] (p285) #balance
 
 ## Your Bar

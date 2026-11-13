@@ -12,7 +12,7 @@ page: 296
 - 1,000 g tomatillo juice
 - 650 g green bell pepper juice
 - 500 g fresh pineapple juice
-- 250 g fresh lime juice
+- 250 g fresh [[Lime Juice]]
 - 150 g [[Salt Solution]] (p298)
 - 25 g serrano chile, seeds removed
 - 15 g garlic

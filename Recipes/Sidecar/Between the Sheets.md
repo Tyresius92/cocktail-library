@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Paul Beau VS]] Cognac #core
 - 1 oz [[Appleton Estate Reserve Blend]] rum #core
 - 3/4 oz [[Pierre Ferrand dry curacao]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1 tsp [[Demerara Gum Syrup]] #balance
 
 ## Your Bar

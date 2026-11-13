@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Laird's 100-proof straight apple brandy]] #core
 - 1/2 oz [[Clear Creek 2-year apple brandy]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[House Grenadine]] #balance
 - Garnish: 1 [[Apple]] slice #seasoning
 

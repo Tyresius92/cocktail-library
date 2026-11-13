@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Absolut Elyx vodka]] #core
 - 1 oz [[Root Beer-Infused Cocchi Americano]] (p292) #balance
 - 1 tsp [[Orange Marmalade]] #balance
-- Garnish: 1 orange wedge #seasoning
+- Garnish: 1 [[Orange]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

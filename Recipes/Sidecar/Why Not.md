@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 1 3/4 oz [[Evan Williams Black Label bourbon]] #core
 - 1/2 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz dark, robust [[Maple Syrup]] #balance
-- Garnish: 1 [[Sage]] leaf and 1 lemon wheel #seasoning
+- Garnish: 1 [[Sage]] leaf and 1 [[Lemon]] wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

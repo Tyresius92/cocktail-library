@@ -8,9 +8,9 @@ page: 285
 # House Lemon Cordial
 
 ## Ingredients
-- about 3 quarts lemon wheels or wedges, or the rinds of 10 lemons
+- about 3 quarts [[Lemon]] wheels or wedges, or the rinds of 10 lemons
 - 600 g white sugar
-- 1,400 g fresh lemon juice
+- 1,400 g fresh [[Lemon Juice]]
 - Pectinex Ultra SP-L (0.2% of the liquid weight)
 
 ## Method

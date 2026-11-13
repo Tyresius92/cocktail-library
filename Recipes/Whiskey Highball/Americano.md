@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Campari]] #core
 - 1 oz [[Carpano Antica Formula vermouth]] #core
 - 4 oz cold [[Seltzer]] #balance
-- Garnish: 1 orange half wheel and a small bottle of cold seltzer #seasoning
+- Garnish: 1 [[Orange]] half wheel and a small bottle of cold seltzer #seasoning
 
 ## Your Bar
 ```dataviewjs

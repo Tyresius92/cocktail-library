@@ -1,6 +1,6 @@
 ---
 type: fresh
-in_stock: false
+in_stock: true
 approximate_cost:
 ---
 

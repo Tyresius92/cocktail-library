@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Paul Beau VSOP Cognac]] #core
 - 1/2 oz [[Clear Creek pear brandy]] #core
 - 1 oz [[Pierre Ferrand dry curacao]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1 tsp [[Cinnamon Syrup]] #seasoning
 
 ## Your Bar

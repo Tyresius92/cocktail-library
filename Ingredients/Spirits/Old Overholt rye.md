@@ -1,9 +1,9 @@
 ---
 type: spirit
-in_stock: false
+in_stock: true
 approximate_cost:
-category: "Rye whiskey"
-style: "standard"
+category: Rye whiskey
+style: standard
 character: ""
 ---
 

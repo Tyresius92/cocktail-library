@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 2 oz cold [[Seltzer]] #balance
 - 2 oz [[Old Overholt rye]] #core
-- 1/2 oz fresh [[Lemon]] juice #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[House Ginger Syrup]] #balance
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

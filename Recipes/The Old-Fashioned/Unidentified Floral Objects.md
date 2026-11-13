@@ -19,7 +19,7 @@ date_tried:
 - 1/4 oz [[Blume Marillen apricot eau-de-vie]] #seasoning
 - 1 tsp [[Demerara Gum Syrup]] (p54) #balance
 - 1 dash [[House Orange Bitters]] (p295) #seasoning
-- Garnish: 1 orange twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

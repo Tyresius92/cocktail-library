@@ -17,7 +17,7 @@ date_tried:
 - 3/4 oz [[Clear Creek pear brandy]] #core
 - 3/4 oz [[La Quintinye Vermouth Royal extra dry]] #core
 - 1 tsp [[Giffard Menthe-Pastille]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - Garnish: 1 [[Mint]] and [[Sage]] bouquet and [[Confectioners' Sugar]] #seasoning
 

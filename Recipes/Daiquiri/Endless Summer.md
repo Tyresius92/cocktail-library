@@ -18,9 +18,9 @@ date_tried:
 - 1/4 oz [[Giffard Creme de Pamplemousse]] #seasoning
 - 1/4 oz [[Giffard blue curacao]] #seasoning
 - 3/4 oz fresh [[Pineapple Juice]] #balance
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1/4 oz [[Simple Syrup]] (p45) #balance
-- Garnish: 1 grapefruit wedge #seasoning
+- Garnish: 1 [[Grapefruit]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

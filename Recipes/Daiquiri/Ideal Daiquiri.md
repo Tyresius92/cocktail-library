@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 3/4 oz [[Cana Brava white rum]] #core
 - 1/4 oz [[La Favorite Coeur de Canne rhum agricole blanc]] #core
-- 1 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 - Garnish: 1 [[Lime]] wedge #seasoning
 

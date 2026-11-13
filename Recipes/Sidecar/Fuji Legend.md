@@ -17,7 +17,7 @@ date_tried:
 - 1 oz [[Chamomile-Infused Blanco Tequila]] (p288) #core
 - 1 oz [[Manzanilla Sherry]] #core
 - 1 oz fresh [[Fuji Apple Juice]] #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[House Ginger Syrup]] (p48) #balance
 - 1 tsp dark, robust [[Maple Syrup]] #balance
 - Garnish: 3 thin apple slices on a skewer #seasoning

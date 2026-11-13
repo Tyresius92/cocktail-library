@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Cana Brava white rum]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 
 ## Your Bar

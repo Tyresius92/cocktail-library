@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Appleton Estate Reserve Blend]] #core
-- 1 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 
 ## Your Bar

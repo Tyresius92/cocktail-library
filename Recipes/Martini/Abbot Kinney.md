@@ -19,7 +19,7 @@ date_tried:
 - 1/4 oz [[St-Germain]] #seasoning
 - 1/4 oz [[Fusion Napa Valley verjus blanc]] #seasoning
 - 2 dashes [[Miracle Mile Celery Bitters]] #seasoning
-- Garnish: 1 celery ribbon #seasoning
+- Garnish: 1 [[Celery Stalk|celery]] ribbon #seasoning
 
 ## Your Bar
 ```dataviewjs

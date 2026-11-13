@@ -8,7 +8,7 @@ page: 297
 # Lemon Pepper Salt
 
 ## Ingredients
-- 20 g dehydrated lemon slices
+- 20 g dehydrated [[Lemon]] slices
 - 10 g freshly ground black pepper
 - 50 g kosher salt
 

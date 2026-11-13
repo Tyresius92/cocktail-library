@@ -11,8 +11,8 @@ page: 295
 - 1,100 g organic tomato juice (bottled)
 - 180 g Worcestershire sauce
 - 30 g Magi seasoning
-- 72 g strained fresh lemon juice
-- 72 g strained fresh lime juice
+- 72 g strained fresh [[Lemon Juice]]
+- 72 g strained fresh [[Lime Juice]]
 - 30 g Tapatio hot sauce
 
 ## Method

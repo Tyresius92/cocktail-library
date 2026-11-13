@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 2 oz cold [[Seltzer]] #balance
 - 2 oz [[Vodka]] #core
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[House Ginger Syrup]] #balance
-- Garnish: 1 lime wheel and 1 piece of [[Candied Ginger]] on a skewer #seasoning
+- Garnish: 1 [[Lime]] wheel and 1 piece of [[Candied Ginger]] on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

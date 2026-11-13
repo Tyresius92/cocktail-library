@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Rum]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
 - Garnish: 1 [[Lime]] wedge #seasoning
 

@@ -17,7 +17,7 @@ date_tried:
 - 1/4 oz [[Lustau Los Arcos amontillado sherry]] #seasoning
 - 1 tsp [[Cherry Heering]] #seasoning
 - 1/2 tsp [[Plymouth sloe gin]] #seasoning
-- 1/4 oz fresh [[Lemon]] juice #balance
+- 1/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Cane Sugar Syrup]] (p47) #balance
 - Garnish: 1 [[Brandied Cherry]] #seasoning
 

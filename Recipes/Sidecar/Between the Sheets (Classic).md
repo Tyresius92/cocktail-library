@@ -13,10 +13,10 @@ date_tried:
 [[Sidecar]]
 
 ## Ingredients
-- 3/4 oz Cognac #core
-- 3/4 oz rum #core
+- 3/4 oz [[Cognac]] #core
+- 3/4 oz [[Rum]] #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 
 ## Your Bar
 ```dataviewjs

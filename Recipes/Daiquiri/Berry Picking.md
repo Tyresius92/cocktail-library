@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 oz [[Strawberry-Infused Cognac and Mezcal]] (p293) #core
 - 1 oz [[Lustau Los Arcos amontillado sherry]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Cinnamon Syrup]] (p52) #balance
 - 1/4 tsp [[Campari]] #seasoning
 - Garnish: 1 whole [[Strawberry]], cut through the tip, stem end intact #seasoning

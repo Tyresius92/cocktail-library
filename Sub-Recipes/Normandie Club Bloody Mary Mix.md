@@ -13,8 +13,8 @@ page: 296
 - 2 oz fresh celery juice
 - 1 1/2 oz fresh red bell pepper juice
 - 1 oz [[Tomato Bouillon Concentrate]]
-- 1/2 oz fresh lemon juice
-- 1/2 oz fresh lime juice
+- 1/2 oz fresh [[Lemon Juice]]
+- 1/2 oz fresh [[Lime Juice]]
 - 1/2 oz dill pickle juice (preferably Bubbie's)
 - 4 tsp Worcestershire sauce
 - 2 tsp Bragg Liquid Aminos

@@ -18,7 +18,7 @@ date_tried:
 - 1/4 oz [[Giffard Vanille de Madagascar]] #seasoning
 - 3/4 oz [[Demerara Gum Syrup]] (p54) #balance
 - 4 oz [[Almond Milk]] (p255) #balance
-- Cereal #seasoning
+- [[Cereal]] #seasoning
 
 ## Your Bar
 ```dataviewjs

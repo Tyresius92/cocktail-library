@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 1/2 oz [[Absolut Elyx vodka]] #core
 - 1/2 oz [[Dolin dry vermouth]] #balance
-- Garnish: 1 olive #seasoning
+- Garnish: 1 [[Cocktail Olive]] #seasoning
 
 ## Your Bar
 ```dataviewjs

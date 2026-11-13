@@ -17,9 +17,9 @@ date_tried:
 - 3/4 oz [[Simple Syrup]] #balance
 - 1 oz [[Famous Grouse Scotch]] #core
 - 1/2 oz [[Laphroaig 10-year scotch]] #core
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 2 dashes [[Pernod absinthe|Pernod Absinthe]] #seasoning
-- Garnish: 1 mint sprig #seasoning
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

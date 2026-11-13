@@ -13,12 +13,12 @@ date_tried:
 [[Whisky Highball]]
 
 ## Ingredients
-- Rim: kosher salt and chile powder, equal parts #seasoning
-- 1 lime wedge (for rimming) #seasoning
+- Rim: [[Kosher Salt]] and chile powder, equal parts #seasoning
+- 1 [[Lime]] wedge (for rimming) #seasoning
 - 5 oz [[Verde Mix]] (p296) #balance
 - 1 1/2 oz [[Jalapeno-Infused Vodka]] (p291) #core
-- 1 oz fresh [[Lime]] juice #balance
-- Garnish: 1 [[Cherry Tomato]] and 1 lemon wedge on a skewer #seasoning
+- 1 oz fresh [[Lime Juice]] #balance
+- Garnish: 1 [[Cherry Tomato]] and 1 [[Lemon]] wedge on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

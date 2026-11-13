@@ -19,7 +19,7 @@ date_tried:
 - 1/2 oz [[Heavy Cream]] #balance
 - 1 whole egg ([[Whole Egg]]) #balance
 - 12 [[Coffee Beans]] #seasoning
-- Garnish: cinnamon #seasoning
+- Garnish: [[Ground Cinnamon|cinnamon]] #seasoning
 
 ## Your Bar
 ```dataviewjs

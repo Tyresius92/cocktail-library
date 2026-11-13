@@ -18,7 +18,7 @@ date_tried:
 - 1 tsp [[Giffard Vanille de Madagascar]] #seasoning
 - 1/2 oz [[Demerara Gum Syrup]] (p54) #balance
 - 1 whole egg ([[Whole Egg]]) #balance
-- Garnish: cinnamon and [[Nutmeg]] #seasoning
+- Garnish: [[Ground Cinnamon|cinnamon]] and [[Nutmeg]] #seasoning
 
 ## Your Bar
 ```dataviewjs

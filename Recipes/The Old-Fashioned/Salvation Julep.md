@@ -18,7 +18,7 @@ date_tried:
 - 1/4 oz [[Grand Marnier]] #seasoning
 - 1 tsp [[Massenez Creme de Peche]] #seasoning
 - 1/2 tsp [[Giffard Menthe-Pastille]] #seasoning
-- Garnish: 1 mint sprig #seasoning
+- Garnish: 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -16,7 +16,7 @@ date_tried:
 - 1 1/2 oz [[Chamomile-Infused Calvados]] #core
 - 1 oz [[Pineau des Charentes]] #balance
 - 1/2 oz [[Honey Syrup]] #balance
-- 3/4 oz fresh [[Lemon]] juice #seasoning
+- 3/4 oz fresh [[Lemon Juice]] #seasoning
 - 4 oz boiling water
 - Garnish: 5 thin [[Apple]] slices on a skewer #seasoning
 

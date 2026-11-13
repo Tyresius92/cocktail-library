@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Krogstad aquavit]] #core
 - 3/4 oz [[Mathilde peach liqueur]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[House Orgeat]] (p285) #balance
 - Garnish: 1 [[Mint Bouquet]] #seasoning
 

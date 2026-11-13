@@ -2,6 +2,7 @@
 type: ingredient
 in_stock: true
 approximate_cost:
+covered_by: ["Whole Egg"]
 ---
 
 # Egg White

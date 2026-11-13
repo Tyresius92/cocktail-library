@@ -13,9 +13,9 @@ date_tried:
 [[Ideal Whisky Highball]]
 
 ## Ingredients
-- 2 oz scotch #core
+- 2 oz [[Scotch]] #core
 - 6 oz cold [[Seltzer]] #balance
-- Garnish: 1 lemon wedge #seasoning
+- Garnish: 1 [[Lemon]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

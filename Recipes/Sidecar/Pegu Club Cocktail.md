@@ -15,10 +15,10 @@ date_tried:
 ## Ingredients
 - 2 oz London dry gin ([[Gin]]) #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 1 dash [[Angostura Bitters]] #seasoning
 - 1 dash [[House Orange Bitters]] #seasoning
-- Garnish: 1 lime wedge #seasoning
+- Garnish: 1 [[Lime]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

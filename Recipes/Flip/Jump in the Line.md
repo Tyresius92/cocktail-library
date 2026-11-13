@@ -13,7 +13,7 @@ date_tried:
 [[Flip]]
 
 ## Ingredients
-- 1 orange half wheel #seasoning
+- 1 [[Orange]] half wheel #seasoning
 - 1/2 strawberry ([[Strawberry]]) #balance
 - 1 1/2 oz [[Lustau Los Arcos amontillado sherry]] #core
 - 1/2 oz [[Amaro di Angostura]] #seasoning
@@ -21,7 +21,7 @@ date_tried:
 - 1 tsp [[Pierre Ferrand dry curacao]] #balance
 - 1/2 oz [[House Coconut Cream]] (p295) #balance
 - 1 dash [[Angostura Bitters]] #seasoning
-- Garnish: 1 pineapple leaf, 1 orange half wheel and 1 mint sprig #seasoning
+- Garnish: 1 [[Pineapple]] leaf, 1 [[Orange]] half wheel and 1 [[Mint]] sprig #seasoning
 
 ## Your Bar
 ```dataviewjs

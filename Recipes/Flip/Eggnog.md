@@ -19,7 +19,7 @@ date_tried:
 - 3/4 oz [[Cane Sugar Syrup]] (p47) #balance
 - 1 oz [[Heavy Cream]] #balance
 - 1 whole egg ([[Whole Egg]]) #balance
-- Garnish: cinnamon and [[Nutmeg]] #seasoning
+- Garnish: [[Ground Cinnamon|cinnamon]] and [[Nutmeg]] #seasoning
 
 ## Your Bar
 ```dataviewjs

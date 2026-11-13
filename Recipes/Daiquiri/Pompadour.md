@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Rhum JM VSOP]] #core
 - 1 1/2 oz [[Pasquet Pineau des Charentes]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Vanilla Lactic Syrup]] #balance
 
 ## Your Bar

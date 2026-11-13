@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Pierre Ferrand Ambre Cognac]] #core
 - 1 oz [[Pierre Ferrand dry curacao]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1 tsp [[Simple Syrup]] #balance
-- Garnish: 1 orange twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

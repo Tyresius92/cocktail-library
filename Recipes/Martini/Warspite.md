@@ -18,7 +18,7 @@ date_tried:
 - 1/4 oz [[Clear Creek blue plum brandy]] #seasoning
 - 3/4 oz [[Aperol]] #balance
 - 1 tsp [[St. Elizabeth allspice dram]] #seasoning
-- Garnish: 1 orange twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

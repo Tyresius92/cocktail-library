@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Famous Grouse Scotch]] #core
 - 3/4 oz [[Carpano Antica Formula vermouth]] #balance
 - 3/4 oz [[Cherry Heering]] #balance
-- 1 oz fresh [[Orange]] juice #balance
+- 1 oz fresh [[Orange Juice]] #balance
 - 2 drops [[Citric Acid Solution]] (p298) #seasoning
 - Garnish: 1 [[Brandied Cherry]] #seasoning
 

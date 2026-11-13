@@ -16,10 +16,10 @@ date_tried:
 - 2 oz [[Seltzer]] #balance
 - 1 1/2 oz [[Campo de Encanto Grand and Noble pisco]] #core
 - 1 oz [[Williams & Humbert Dry Sack sherry]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Clarified Strawberry Syrup]] (p57) #balance
 - 1/4 oz [[Cinnamon Syrup]] (p52) #balance
-- Garnish: 1 lemon wedge and [[Nutmeg]] #seasoning
+- Garnish: 1 [[Lemon]] wedge and [[Nutmeg]] #seasoning
 
 ## Your Bar
 ```dataviewjs

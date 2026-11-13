@@ -15,8 +15,8 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Paul Beau Hors d'Age Cognac]] #core
 - 1 oz [[Pierre Ferrand dry curacao]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
-- Garnish: 1 orange twist #seasoning
+- 3/4 oz fresh [[Lemon Juice]] #balance
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

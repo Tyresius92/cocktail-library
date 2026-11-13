@@ -17,9 +17,9 @@ date_tried:
 - 1/2 oz [[Simple Syrup]] #balance
 - 1 1/2 oz [[Plantation 3 Stars White]] #core
 - 1/2 tsp [[Giffard Menthe-Pastille]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
 - 4 oz cold [[Dry Sparkling Wine]] #balance
-- Garnish: 1 lime twist #seasoning
+- Garnish: 1 [[Lime]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

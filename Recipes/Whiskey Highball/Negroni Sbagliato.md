@@ -16,7 +16,7 @@ date_tried:
 - 1 oz [[Carpano Antica Formula vermouth]] #core
 - 1 oz [[Campari]] #core
 - 1 oz cold [[Prosecco]] #balance
-- Garnish: 1 orange wedge #seasoning
+- Garnish: 1 [[Orange]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Plymouth gin]] #core
-- 1 oz clarified [[Orange]] juice (see [[_Notes - Clarifying Juice]]) #balance
+- 1 oz clarified [[Orange Juice]] (see [[_Notes - Clarifying Juice]]) #balance
 - 1 tsp [[House Grenadine]] #balance
 - 2 dashes [[Pernod absinthe|Pernod Absinthe]] #seasoning
 

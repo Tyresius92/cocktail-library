@@ -14,7 +14,7 @@ date_tried:
 
 ## Ingredients
 - 2 oz [[Famous Grouse Scotch]] #core
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/3 oz [[Honey Syrup]] (p45) #balance
 - 1/3 oz [[House Ginger Syrup]] (p48) #balance
 - Garnish: 3 sprays of Islay scotch ([[Laphroaig 10-year scotch]]) and 1 piece of [[Candied Ginger]] on a skewer #seasoning

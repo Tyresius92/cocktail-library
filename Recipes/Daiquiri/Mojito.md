@@ -17,8 +17,8 @@ date_tried:
 - 3/4 oz [[Simple Syrup]] #balance
 - 1 white [[Sugar cube]] #balance
 - 2 oz [[Cana Brava white rum]] #core
-- 1 oz fresh [[Lime]] juice #balance
-- Garnish: 1 mint bouquet #seasoning
+- 1 oz fresh [[Lime Juice]] #balance
+- Garnish: 1 [[Mint Bouquet]] #seasoning
 
 ## Your Bar
 ```dataviewjs

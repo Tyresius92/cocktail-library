@@ -15,8 +15,8 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Beefeater London Dry gin]] #core
 - 1/2 oz [[Aperol]] #core
-- 1 oz fresh [[Grapefruit]] juice #balance
-- 1/2 oz fresh [[Lime]] juice #balance
+- 1 oz fresh [[Grapefruit Juice]] #balance
+- 1/2 oz fresh [[Lime Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - Garnish: a high five (seriously!) #seasoning
 

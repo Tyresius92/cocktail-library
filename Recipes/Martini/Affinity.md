@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Carpano Antica Formula vermouth]] #balance
 - 1/2 oz [[Dolin dry vermouth]] #balance
 - 2 dashes [[Angostura Bitters]] #seasoning
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

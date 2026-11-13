@@ -16,7 +16,7 @@ date_tried:
 - 2 oz [[Aperol]] #core
 - 3 oz cold [[Prosecco]] or dry Champagne-style sparkling wine #balance
 - 2 oz cold [[Seltzer]] #balance
-- Garnish: 1 grapefruit wedge #seasoning
+- Garnish: 1 [[Grapefruit]] wedge #seasoning
 
 ## Your Bar
 ```dataviewjs

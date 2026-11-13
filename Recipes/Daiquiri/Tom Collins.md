@@ -15,9 +15,9 @@ date_tried:
 ## Ingredients
 - 2 oz cold [[Seltzer]] #balance
 - 2 oz [[Beefeater London Dry gin]] #core
-- 1 oz fresh [[Lemon]] juice #balance
+- 1 oz fresh [[Lemon Juice]] #balance
 - 3/4 oz [[Simple Syrup]] #balance
-- Garnish: 1 orange half wheel and 1 [[Brandied Cherry]] on a skewer #seasoning
+- Garnish: 1 [[Orange]] half wheel and 1 [[Brandied Cherry]] on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

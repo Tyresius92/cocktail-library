@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Dolin Blanc]] #balance
 - 1/4 oz [[St-Germain]] #seasoning
 - 3/4 oz [[Fusion Napa Valley verjus blanc]] #balance
-- Garnish: 1 grapefruit half wheel #seasoning
+- Garnish: 1 [[Grapefruit]] half wheel #seasoning
 
 ## Your Bar
 ```dataviewjs

@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 2 oz [[Cognac]] (preferably VSOP) #core
 - 3/4 oz [[Cointreau]] #balance
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 
 ## Your Bar
 ```dataviewjs

@@ -18,7 +18,7 @@ date_tried:
 - 1 tsp [[Galliano Ristretto]] #seasoning
 - 1 tsp [[Vanilla Lactic Syrup]] (p286) #balance
 - 1 dash [[Bittermens Xocolatl mole bitters]] #seasoning
-- Garnish: 1 orange twist #seasoning
+- Garnish: 1 [[Orange]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

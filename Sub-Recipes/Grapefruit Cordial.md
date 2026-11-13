@@ -8,10 +8,10 @@ page: 53
 # Grapefruit Cordial
 
 ## Ingredients
-- 250g strained fresh [[Grapefruit]] juice
+- 250g strained fresh [[Grapefruit Juice]]
 - 250g [[Unbleached Cane Sugar]]
 - 2.5g [[Citric Acid]]
-- 10g grapefruit zest
+- 10g [[Grapefruit]] zest
 
 ## Method
 Immersion circulator at 135F. Whisk all ingredients in a bowl, seal in a heatproof bag, and cook 2 hours. Cool in an ice bath, pass through a fine-mesh sieve lined with several layers of cheesecloth (then a coffee filter or Superbag if particles remain). Refrigerate up to 2 weeks.

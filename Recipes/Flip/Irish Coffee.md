@@ -16,7 +16,7 @@ date_tried:
 - 2 oz [[Heavy Cream]] #balance
 - 1 1/2 oz [[Jameson Irish Whiskey]] #core
 - 3/4 oz [[Demerara Gum Syrup]] (p54) #balance
-- 3 oz hot brewed coffee #balance
+- 3 oz hot [[Brewed Coffee|brewed coffee]] #balance
 
 ## Your Bar
 ```dataviewjs

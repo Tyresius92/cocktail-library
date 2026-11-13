@@ -16,7 +16,7 @@ date_tried:
 - 2 oz [[Plymouth gin]] #core
 - 1/4 oz [[Giffard Creme de Violette]] #seasoning
 - 1 tsp [[Maraska maraschino liqueur]] #seasoning
-- 3/4 oz fresh [[Lemon]] juice #balance
+- 3/4 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] (p45) #balance
 - Garnish: 1 [[Brandied Cherry]] #seasoning
 

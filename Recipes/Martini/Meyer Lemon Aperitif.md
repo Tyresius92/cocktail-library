@@ -21,7 +21,7 @@ date_tried:
 - 1 1/4 oz [[Cane Sugar Syrup]] #balance
 - 8 dashes [[House Orange Bitters]] #seasoning
 - 8 oz water
-- Garnish: 10 Meyer lemon wheels #seasoning
+- Garnish: 10 [[Meyer Lemon]] wheels #seasoning
 
 ## Your Bar
 ```dataviewjs

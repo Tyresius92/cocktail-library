@@ -14,10 +14,10 @@ date_tried:
 
 ## Ingredients
 - 1 oz [[Plymouth gin]] #core
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 4 oz cold [[Dry Sparkling Wine]] #balance
-- Garnish: 1 lemon twist #seasoning
+- Garnish: 1 [[Lemon]] twist #seasoning
 
 ## Your Bar
 ```dataviewjs

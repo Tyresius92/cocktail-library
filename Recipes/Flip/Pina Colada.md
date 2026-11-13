@@ -17,7 +17,7 @@ date_tried:
 - 1/2 oz [[Cruzan Black Strap]] #core
 - 1 1/2 oz fresh [[Pineapple Juice]] #balance
 - 1 1/2 oz [[House Coconut Cream]] (p295) #balance
-- Garnish: 1 pineapple wedge and 1 [[Brandied Cherry]] on an umbrella skewer #seasoning
+- Garnish: 1 [[Pineapple]] wedge and 1 [[Brandied Cherry]] on an umbrella skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

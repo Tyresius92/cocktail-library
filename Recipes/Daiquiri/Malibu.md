@@ -18,8 +18,8 @@ date_tried:
 - 1/2 oz [[Lillet blanc]] #core
 - 1/2 oz [[Giffard Creme de Pamplemousse]] #seasoning
 - 1 tsp [[Campari]] #seasoning
-- 3/4 oz fresh [[Lime]] juice #balance
-- 1/2 oz fresh grapefruit juice #balance
+- 3/4 oz fresh [[Lime Juice]] #balance
+- 1/2 oz fresh [[Grapefruit Juice]] #balance
 - 1/2 oz [[Grapefruit Cordial]] (p53) #balance
 - 3 drops [[Salt Solution]] (p298) #seasoning
 - Garnish: 10 [[Toasted Coconut Chips]] #seasoning

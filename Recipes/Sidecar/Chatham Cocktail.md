@@ -16,9 +16,9 @@ date_tried:
 - 3/4 oz [[Cocchi Americano Bianco]] #core
 - 3/4 oz [[Lustau Puerto fino sherry]] #core
 - 1/4 oz [[Grand Marnier]] #balance
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] #balance
-- Pinch of salt #seasoning
+- pinch of [[Kosher Salt|salt]] #seasoning
 - 1 1/2 oz [[Dry Champagne]] #balance
 - Garnish: 1 [[Grapefruit]] twist #seasoning
 

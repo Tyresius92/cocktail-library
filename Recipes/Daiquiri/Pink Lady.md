@@ -15,7 +15,7 @@ date_tried:
 ## Ingredients
 - 1 1/2 oz [[Plymouth gin]] #core
 - 1/2 oz [[Laird's 100-proof straight apple brandy]] #core
-- 1/2 oz fresh [[Lemon]] juice #balance
+- 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[House Grenadine]] #balance
 - 1/2 oz [[Simple Syrup]] #balance
 - 1 [[Egg White]] #balance
