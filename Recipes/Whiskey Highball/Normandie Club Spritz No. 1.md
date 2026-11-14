@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: carbonated
 glass: wine glass
 page: 225
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Normandie Club Spritz No. 1
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Chill all the ingredients. Combine in a carbonating bottle, charge with CO2 and gently shake to dissolve it (see [[_Notes - Carbonating Cocktails]]). Pour over ice in a small white wine glass. Garnish with the mint sprig.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Alex Day, The Normandie Club, 2015. With fully clarified juices it looks like a simple spritz but is packed with bright, tart flavors and piney complexity from the Douglas fir eau de vie. Note: the printed title is "Normandie Club Spritz #1"; filename uses "No. 1". (The Normandie Club No. 2 does not appear in this chapter.)

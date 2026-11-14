@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: double Old-Fashioned
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Campfire
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Using a PolyScience Smoking Gun, smoke the top of the drink with cherry wood smoke. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2017. Smoke technique: [[_Notes - Smoky Flavors]]. Appendix cocktail; root assigned by me.

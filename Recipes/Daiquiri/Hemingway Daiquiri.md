@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 120
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Hemingway Daiquiri
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with the lime wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. The book uses it to show how grapefruit juice affects balance. Grapefruit is bitter-tart but less acidic than lime, so simply swapping 1 oz in for the lime of the root Daiquiri would be thin; hence the fairly generous lime. Because grapefruit juice and maraschino both add sweetness, the simple syrup is dialed way back. The drink is about rum, grapefruit and maraschino, but gets its vibrancy from the lime and syrup.

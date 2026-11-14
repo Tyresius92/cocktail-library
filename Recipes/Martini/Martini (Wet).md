@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 77
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Martini (Wet)
@@ -23,6 +20,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Citrusy and light, with a more herbal focus; the gin bows to the vermouth. The book likes all three, depending on mood.

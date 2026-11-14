@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: coupe
 page: 275
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Campfire Flip
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a chilled coupe. Garnish with a few grates of cinnamon and nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2017. A smoky riff on the classic Flip: hickory-smoked Cognac paired with sherry and a bit of vanilla liqueur. Rich, with smoked-woody complexity that plays off the barrel-aged flavors of both the Cognac and the sherry. See [[_Notes - Smoky Flavors]].

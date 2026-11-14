@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Cachaca"
 style: "aged"
@@ -10,6 +9,11 @@ character: "Adds chocolate and cinnamon notes. Aged two years in Latin American 
 # Avua Amburana cachaca
 
 **Category:** Cachaca
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Adds chocolate and cinnamon notes.

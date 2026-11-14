@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 35
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Bananarac
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Rinse a chilled Old-Fashioned glass with absinthe and dump. Stir the remaining ingredients over ice, then strain into the glass. Express the lemon twist over the drink and discard.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2014. Bananas in a boozy cocktail once seemed questionable until Giffard introduced Banane du Bresil to the US: a balanced banana liqueur with true banana flavor, a rarity. Here it plays a supporting role, seasoning a boozy drink.

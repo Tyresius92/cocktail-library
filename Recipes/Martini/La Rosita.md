@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 90
-tried: false
-rating: 
-date_tried: 
 ---
 
 # La Rosita
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A tequila-laced Perfect Manhattan with the addition of Campari, or a tequila Negroni that splits the vermouths. Gary Regan's adaptation of a recipe from an old copy of Mr. Boston: Official Bartender's Guide. The dry vermouth is key in this version because its savory flavors amplify the vegetal quality of the tequila.

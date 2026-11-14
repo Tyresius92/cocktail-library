@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 4
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ideal Old-Fashioned
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The book's root recipe. Tweaks vs. the classic: a mid-spectrum bourbon (Elijah Craig Small Batch), Demerara Gum Syrup instead of a sugar cube, an extra dash of Bitter Truth aromatic bitters for cinnamon and clove, and both twists expressed (orange rubbed on the rim, lemon not, since lemon oil is more pungent).

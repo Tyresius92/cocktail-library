@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: Old-Fashioned
 page: 256
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Eggnog
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a chilled Old-Fashioned glass. Garnish with a few grates of cinnamon and nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic, in a quick single-serving form. Traditional eggnog is a large-batch custard base that is then spiked (as in the Tom and Jerry, p268); this version needs little prep. Dairy and egg together amplify each other's richness.

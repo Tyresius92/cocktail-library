@@ -3,9 +3,6 @@ root: "#flip"
 method: build
 glass: mug
 page: 268
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Tom and Jerry
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Warm a coffee mug or teacup by filling it with boiling water, letting it sit a minute or two, then dumping it out. Pour in the rum and Cognac, then add the batter. Stir until well combined, then slowly add the hot milk. Garnish with a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A warming wintertime favorite packed with rum, Cognac, dairy and egg (in the batter). The Flip may have originated as a heated mix of egg, ale and sugar, so a warm Flip descendant fits.

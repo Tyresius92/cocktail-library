@@ -3,9 +3,6 @@ root: "#flip"
 method: blend
 glass: Collins
 page: 270
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Frozen Mudslide
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a blender and process until smooth. Pour into a Collins glass and serve with a straw and long spoon. Garnish with grated dark chocolate.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Essentially a boozy milkshake; the Mudslide's bad reputation probably comes from the usual near-equal mix of coffee liqueur, vodka and Baileys. Ice cream adds richness and flavor and avoids shaking with ice, which waters the drink down.

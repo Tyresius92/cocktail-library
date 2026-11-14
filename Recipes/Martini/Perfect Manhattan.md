@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 86
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Perfect Manhattan
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. "Perfect" means equal parts sweet and dry vermouth, but splitting modifiers is tricky, especially in a Manhattan: the wrong combination fights the whiskey. Here the crispness of the dry vermouth, reinforced by the lemon twist, gives a lighter, brighter Manhattan.

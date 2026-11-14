@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 113
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daiquiri (Funky Rum)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Focus shifts to the complex rhum agricole and its grassy flavor: a vegetal, almost savory iteration.

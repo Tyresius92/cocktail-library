@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: teacup or coupe
 page: 283
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Professor Hinkle
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a teacup or chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Alex Day, 2015. Appendix cocktail; root assigned by me.

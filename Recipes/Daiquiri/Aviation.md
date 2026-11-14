@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 278
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Aviation
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Gin sour with violet and maraschino. Appendix cocktail; root assigned by me.

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: short shake
 glass: Collins
 page: 280
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Fuji Legend
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the seltzer into a Collins glass. Short shake the remaining ingredients with ice for about 5 seconds, then strain into the glass. Fill the glass with ice cubes, then garnish with the apple slices.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day and Devon Tarby, 2013. Appendix cocktail; root assigned by me.

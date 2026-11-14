@@ -3,9 +3,6 @@ root: "#flip"
 method: whip
 glass: double Old-Fashioned
 page: 275
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Smoky Colada
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a shaker and whip, shaking with a few pieces of crushed ice just until incorporated, then dump into a double Old-Fashioned glass and fill with crushed ice. Garnish with the pineapple wedge and cherry and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2017. Smoky flavor via an ingredient (grilled pineapple syrup) instead of smoke itself; replacing some of the fresh pineapple juice in the [[Pina Colada]] pushes it in a slightly savory direction.

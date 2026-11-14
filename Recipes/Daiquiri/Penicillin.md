@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned
 page: 282
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Penicillin
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Mist the top of the drink with the scotch, then garnish with the candied ginger.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Sam Ross, 2005. Appendix cocktail; root assigned by me.

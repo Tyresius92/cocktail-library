@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double rocks
 page: 114
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Amaretto Sour
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Garnish with the orange half wheel and cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Extending the core experiment: a liqueur or even a fortified wine can be the core. With a full 2 oz of nutty, sweet amaretto, the other ingredients are adjusted: the simple syrup is decreased to keep it from being way too sweet.

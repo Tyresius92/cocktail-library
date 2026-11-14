@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: flute
 page: 143
-tried: false
-rating: 
-date_tried: 
 ---
 
 # The Eliza
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (except the sparkling wine) with ice, then strain into a chilled flute. Pour in the sparkling wine, and quickly dip the barspoon into the glass to gently mix the wine with the cocktail.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. With careful adjustments the subtle complexity of the [[French 75]] can be modified into exceptional variations. Here the citrusy Plymouth is replaced with sarsaparilla-forward Aviation gin, plus Clear Creek pear brandy and savory French cassis, spiked with lavender bitters for a seductive floral hint. No garnish listed in the book (photo shows none).

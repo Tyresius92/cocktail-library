@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 88
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Poet's Dream
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. "Improved" (as in the [[Improved Whiskey Cocktail]]) means adding a bit of highly flavorful liqueur to a basic cocktail: a basic Martini is improved by backing off the vermouth a bit and adding herbaceous Benedictine.

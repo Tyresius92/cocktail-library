@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 13
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Monte Carlo
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Benedictine, a sweet liqueur with herbal and honey flavors, stands in for the sugar.

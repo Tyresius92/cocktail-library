@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 123
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Tarby Party
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with 1 large ice cube until very cold and frothy. Strain into a chilled coupe. Garnish with the lime wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 From Devon Tarby (Friends and Family, p123), partner in Proprietors LLC, formerly at The Varnish in Los Angeles. A riff on [[Ideal Daiquiri]] (a split base of white rum plus a little rhum agricole). Method is the large-cube shake, see [[_Notes - Shaking to Dilution]]. Her essay is condensed in [[_Notes - Devon Tarby on the Daiquiri]].

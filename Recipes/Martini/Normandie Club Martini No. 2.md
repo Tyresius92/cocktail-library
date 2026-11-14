@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 282
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Normandie Club Martini No. 2
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Mist the top of the drink with the salt solution.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Trevor Easter, 2016 (printed "Normandie Club Martini #2"). Appendix cocktail; root assigned by me.

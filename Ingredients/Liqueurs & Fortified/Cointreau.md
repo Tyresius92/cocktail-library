@@ -1,6 +1,5 @@
 ---
 type: liqueur
-in_stock: false
 approximate_cost:
 category: "Orange liqueur"
 style: "triple sec"
@@ -10,6 +9,11 @@ character: "Orange liqueur, about 80 proof. Medium sweetness, between bone-dry P
 # Cointreau
 
 **Category:** Liqueur
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Orange liqueur, about 80 proof. Medium sweetness, between bone-dry Pierre Ferrand dry curacao and sweet Grand Marnier (book p154-155). Because it is as boozy as most base spirits, it must be accounted for in the proportions of a Sidecar.

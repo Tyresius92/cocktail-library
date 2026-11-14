@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: highball
 page: 209
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Americano
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the Campari and vermouth into a Highball glass, then add 3 ice cubes. Stir for 3 seconds. Add the seltzer and stir once. Garnish with the orange half wheel and serve with a bottle of seltzer.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A staple aperitif: a [[Negroni]] with the gin replaced by seltzer, turning it into a Highball with a split base of Campari and sweet vermouth. Both are rich and bitter though lower in alcohol, so the basic Highball format works without modification. The orange garnish matters: it perfumes the nose and its flavors slowly seep in. Keep extra cold seltzer on hand to top off, ideally in the late afternoon with a good book.

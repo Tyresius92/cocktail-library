@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Vodka"
 style: "standard"
@@ -10,6 +9,11 @@ character: "Wheat-based; smooth, slightly sweet and soft, giving a Martini softn
 # Absolut Elyx vodka
 
 **Category:** Vodka
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Wheat-based; smooth, slightly sweet and soft, giving a Martini softness and rich body.

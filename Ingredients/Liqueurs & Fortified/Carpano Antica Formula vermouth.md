@@ -1,6 +1,5 @@
 ---
 type: fortified-wine
-in_stock: false
 approximate_cost:
 category: "Sweet vermouth"
 style: "Italian"
@@ -10,6 +9,11 @@ character: ""
 # Carpano Antica Formula vermouth
 
 **Category:** 
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

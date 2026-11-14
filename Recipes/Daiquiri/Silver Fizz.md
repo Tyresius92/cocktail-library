@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: fizz glass
 page: 140
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Silver Fizz
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients (except the seltzer), then shake again with ice. Double strain into a fizz glass. Slowly add the seltzer, occasionally tapping the bottom of the glass on a table or flat surface to settle the foam. As you finish adding the seltzer, a white puck of foam should form on top of the drink. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. At their simplest, fizzes are Collins-style drinks served without ice, most commonly with gin but possible with any spirit. The Silver Fizz is a simple fizz with an egg white added. See [[_Notes - Fizzes]] for the foam science.

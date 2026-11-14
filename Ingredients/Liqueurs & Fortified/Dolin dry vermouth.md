@@ -1,6 +1,5 @@
 ---
 type: fortified
-in_stock: true
 approximate_cost:
 category: Dry vermouth
 style: standard
@@ -10,6 +9,11 @@ character: ""
 # Dolin dry vermouth
 
 **Category:** Vermouth
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

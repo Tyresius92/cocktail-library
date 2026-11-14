@@ -29,22 +29,26 @@ const TIER_NAMES = ["As written", "Close swap", "Stretch swap"];
 const ing = dv.pages('"Ingredients"').array();
 const byPath = new Map(ing.map(p => [p.file.path, p]));
 const byName = new Map(ing.map(p => [p.file.name, p]));
+const toArr = v => !v ? [] : (typeof v === "string" ? [v] : Array.from(v));
+const barPage = dv.page("My Bar");
+const stockSet = new Set(toArr(barPage && barPage.in_stock));
+const owns = p => !!p && stockSet.has(p.file.name);
 const partners = new Map();
 for (const [a, b] of SAME) {
   if (!partners.has(a)) partners.set(a, []); partners.get(a).push(b);
   if (!partners.has(b)) partners.set(b, []); partners.get(b).push(a);
 }
-const isOwned = p => p.in_stock === true ||
-  (partners.get(p.file.name) || []).some(n => byName.get(n)?.in_stock === true);
+const isOwned = p => owns(p) ||
+  (partners.get(p.file.name) || []).some(n => owns(byName.get(n)));
 const isSame = (a, b) => a.file.name === b.file.name || (partners.get(a.file.name) || []).includes(b.file.name);
 const byCat = new Map();
 for (const p of ing) if (p.category) { if (!byCat.has(p.category)) byCat.set(p.category, []); byCat.get(p.category).push(p); }
 const catsLower = new Map([...byCat.keys()].map(c => [c.toLowerCase(), c]));
 const genericCats = p => GENERIC[p.file.name] || (catsLower.has(p.file.name.toLowerCase()) ? [catsLower.get(p.file.name.toLowerCase())] : null);
-const ownedIn = (cats, p) => (TRUST_CATEGORY_FLAG && p.in_stock === true) || cats.some(c => (byCat.get(c) || []).some(isOwned));
+const ownedIn = (cats, p) => (TRUST_CATEGORY_FLAG && owns(p)) || cats.some(c => (byCat.get(c) || []).some(isOwned));
 const nm = p => p.file.name;
 const coverNames = p => { const c = p.covered_by; if (!c) return []; return typeof c === "string" ? [c] : Array.from(c); };
-const haveItem = p => p.in_stock === true || coverNames(p).some(n => byName.get(n)?.in_stock === true);
+const haveItem = p => owns(p) || coverNames(p).some(n => owns(byName.get(n)));
 const lc = s => (s || "").toString();
 
 
@@ -188,9 +192,14 @@ function rootType(r) {
 
 
 ## What have I tried?
-```dataview
-TABLE date_tried, rating, root
-FROM "Recipes"
-WHERE tried = true
-SORT date_tried DESC
+```dataviewjs
+const toArr = v => !v ? [] : (typeof v === "string" ? [v] : Array.from(v));
+const fd = v => !v ? "" : (v.toISODate ? v.toISODate() : String(v).slice(0, 10));
+const bar = dv.page("My Bar");
+const tried = (bar && bar.tried) || {};
+const rec = new Map(dv.pages('"Recipes"').array().map(r => [r.file.name, r]));
+const rows = Object.keys(tried).map(n => { const e = tried[n] || {}; return { r: rec.get(n), date: fd(e.date), rating: e.rating ?? "" }; })
+  .filter(x => x.r).sort((a, b) => b.date.localeCompare(a.date));
+if (!rows.length) dv.paragraph("*Nothing yet. Tick Tried on a recipe to add it here.*");
+else dv.table(["Drink", "Date tried", "Rating", "Root"], rows.map(x => [x.r.file.link, x.date, x.rating, x.r.root]));
 ```

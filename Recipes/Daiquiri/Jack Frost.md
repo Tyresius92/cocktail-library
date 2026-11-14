@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: Collins, crushed ice
 page: 136
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Jack Frost
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a shaker and whip, shaking with a few pieces of crushed ice, just until incorporated. Dump into a Collins glass and add crushed ice until the glass is about four-fifths full. Swizzle for a few seconds, then pack the glass with ice, mounding it above the rim. Garnish with the mint and sage bouquet and finish with a dusting of confectioners' sugar. Serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. A [[Mojito]] variation with a split base of tequila, pear brandy and dry vermouth, accented with a bit of creme de menthe. Not overly minty, but the liqueur has a cooling quality, like inhaling cold air on a snowy winter night, enhanced by the crushed ice. Technique: [[_Notes - Crushed Ice and Whipping]].

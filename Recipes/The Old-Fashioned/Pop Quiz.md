@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 17
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Pop Quiz
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2010. Substituting a sweet liqueur or amaro for the sugar balances the drink while adding a unique seasoning. Here an orange-flavored amaro (Ramazzotti) and spicy, chocolaty bitters.

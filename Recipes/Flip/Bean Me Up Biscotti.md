@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: small white wine glass
 page: 263
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Bean Me Up Biscotti
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a small white wine glass. Garnish with a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Trevor Easter (see [[_Notes - Trevor Easter]]). Dessert-style Flip: aged rum, coffee liqueur and biscotti liqueur with cream and egg.

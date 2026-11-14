@@ -1,12 +1,16 @@
 ---
 type: sweetener
-in_stock: false
 approximate_cost:
 ---
 
 # Cane Sugar Syrup
 
 **Category:** 
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Unbleached cane sugar is less refined than table sugar: pale amber, granules about twice the size, more flavor than white sugar but less than demerara. Made rich (2 parts sugar to 1 part water) to maximize its personality; 1 tsp can lift a spirituous drink and add texture, and it plays well with citrus when the base spirit has personality (tequila, rhum agricole).

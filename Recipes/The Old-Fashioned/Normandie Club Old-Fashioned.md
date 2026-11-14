@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 16
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Normandie Club Old-Fashioned
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Garnish with the dried apple slice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day and Devon Tarby, 2015. One of the most popular cocktails at the Normandie Club; manipulates both the core and the balance with an infused bourbon and a spiced syrup. Showed that coconut can shine in spirituous cocktails beyond tiki if it's incorporated into an infusion.

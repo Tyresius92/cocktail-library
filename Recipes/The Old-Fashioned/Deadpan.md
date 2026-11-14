@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 23
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Deadpan
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day and Devon Tarby, 2014. As rich and decadent as an Old-Fashioned gets, with no sugar syrup: the sweetness comes from a raisiny sherry and a vanilla liqueur, set against the nutty split base of Cognac and sesame-infused rum.

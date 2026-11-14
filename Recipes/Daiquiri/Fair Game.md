@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: whip
 glass: Collins
 page: 280
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Fair Game
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a shaker and whip, shaking with a few pieces of crushed ice, just until incorporated. Dump into a Collins glass and add crushed ice until about four-fifths full. Swizzle for a few seconds, then pack the glass with ice, mounding it above the rim. Garnish with the mint sprig and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2012. Sherry-heavy split base (see [[_Notes - Sherry]]). Appendix cocktail; root assigned by me.

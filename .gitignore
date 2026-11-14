@@ -11,3 +11,6 @@
 !.obsidian/plugins/dataview/
 .obsidian/plugins/dataview/*
 !.obsidian/plugins/dataview/data.json
+
+# Your own data: stock list and tried drinks (created on first use)
+My Bar.md

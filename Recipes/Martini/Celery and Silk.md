@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Celery and Silk
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2014. Appendix cocktail; root assigned by me.

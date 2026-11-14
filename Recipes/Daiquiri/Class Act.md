@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Class Act
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. Garnish with the pineapple wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2015. Appendix cocktail; root assigned by me.

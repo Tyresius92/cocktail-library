@@ -1,6 +1,5 @@
 ---
 type: bitters
-in_stock: true
 approximate_cost:
 ---
 
@@ -10,6 +9,11 @@ approximate_cost:
 - [[Angostura Bitters]]
 - [[Miracle Mile Castilian Bitters]]
 - 
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

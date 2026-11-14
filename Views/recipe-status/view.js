@@ -11,12 +11,16 @@ const r = dv.current();
 const ing = dv.pages('"Ingredients"').array();
 const byPath = new Map(ing.map(p => [p.file.path, p]));
 const byName = new Map(ing.map(p => [p.file.name, p]));
+const toArr = v => !v ? [] : (typeof v === "string" ? [v] : Array.from(v));
+const barPage = dv.page("My Bar");
+const stockSet = new Set(toArr(barPage && barPage.in_stock));
+const owns = p => !!p && stockSet.has(p.file.name);
 const partners = new Map();
 for (const [a, b] of SAME) {
   if (!partners.has(a)) partners.set(a, []); partners.get(a).push(b);
   if (!partners.has(b)) partners.set(b, []); partners.get(b).push(a);
 }
-const isOwned = p => p.in_stock === true || (partners.get(p.file.name) || []).some(n => byName.get(n)?.in_stock === true);
+const isOwned = p => owns(p) || (partners.get(p.file.name) || []).some(n => owns(byName.get(n)));
 const isSame = (a, b) => a.file.name === b.file.name || (partners.get(a.file.name) || []).includes(b.file.name);
 const byCat = new Map();
 for (const p of ing) if (p.category) { if (!byCat.has(p.category)) byCat.set(p.category, []); byCat.get(p.category).push(p); }
@@ -24,7 +28,7 @@ const catsLower = new Map([...byCat.keys()].map(c => [c.toLowerCase(), c]));
 const genericCats = p => GENERIC[p.file.name] || (catsLower.has(p.file.name.toLowerCase()) ? [catsLower.get(p.file.name.toLowerCase())] : null);
 const nm = p => p.file.name;
 const coverNames = p => { const c = p.covered_by; if (!c) return []; return typeof c === "string" ? [c] : Array.from(c); };
-const haveItem = p => p.in_stock === true || coverNames(p).some(n => byName.get(n)?.in_stock === true);
+const haveItem = p => owns(p) || coverNames(p).some(n => owns(byName.get(n)));
 const lk = p => p.file.link || ("[[" + nm(p) + "]]");
 const dedupe = ps => { const out = []; for (const p of ps) if (!out.some(o => isSame(o, p))) out.push(p); return out; };
 const names = ps => dedupe(ps).map(lk).join(" or ");
@@ -86,8 +90,8 @@ else {
       swaps.push("**" + names(dedupe(owned).slice(0, 3)) + "** for " + label + " (book calls for " + hint + ")");
       continue;
     }
-    const via = coverNames(p).find(n => byName.get(n)?.in_stock === true);
-    if (p.in_stock === true) have.push(lk(p));
+    const via = coverNames(p).find(n => owns(byName.get(n)));
+    if (owns(p)) have.push(lk(p));
     else if (via) have.push(lk(p) + " (using [[" + via + "]])");
     else if (optional.has(base)) garnishMissing.push(lk(p));
     else missing.push(lk(p));

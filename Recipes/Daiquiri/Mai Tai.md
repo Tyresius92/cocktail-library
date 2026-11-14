@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned, crushed ice
 page: 136
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Mai Tai
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a shaker and whip, shaking with a few pieces of crushed ice, just until incorporated. Dump into a double Old-Fashioned glass, then pack the glass with crushed ice. Garnish with the mint bouquet.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Crushed ice helps temper the sweetness of rich ingredients. A complex combination of funky rums, almond-laced orgeat, orange liqueur and lime that can easily teeter toward too sweet; serving it in a glass packed with crushed ice lightens the flavors just the right amount while allowing their complexity through.

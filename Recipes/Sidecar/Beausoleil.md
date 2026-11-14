@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: Collins
 page: 171
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Beausoleil
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a Collins glass filled with ice. Garnish with the thyme sprig.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Main flavor components (dry vermouth, limoncello, lemon juice) closely mirror a classic Sidecar. Because vermouth is fairly low in proof, it's bolstered with a bit of grappa and more simple syrup, two adjustments that keep the drink from tasting watery.

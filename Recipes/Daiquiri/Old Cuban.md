@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 141
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Old Cuban
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (except the sparkling wine) with ice, then double strain into a chilled coupe. Pour in the Champagne, and quickly dip the barspoon into the glass to gently mix the wine with the cocktail. Garnish with the mint leaf.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Audrey Saunders, 2001. A deeply complex cocktail that livens up a [[Mojito]] with bubbles. A lightly aged rum adds complexity, seasoned with Angostura and mint. It evolves as you drink: tongue-tingling effervescence and fresh mint at first; as it warms and the bubbles lose intensity, the rum's richness comes forward.

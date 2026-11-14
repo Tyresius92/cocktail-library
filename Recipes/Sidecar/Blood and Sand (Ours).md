@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 193
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Blood and Sand (Ours)
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Seasoning experiment (p192-193): a couple of drops of citric acid solution add tart brightness that lifts the orange juice. The cocktail may not taste more acidic but the orange's brightness is clearer; the authors find it more harmonious. (Elsewhere they note some versions use equal parts, but bumping the scotch and adding a bit of lemon yields a less cloying drink.)

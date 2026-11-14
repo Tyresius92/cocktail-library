@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: build
 glass: flute
 page: 26
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Champagne Cocktail
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Place the sugar cube on a paper towel and dash the bitters over it until completely saturated. Drop the cube into a chilled flute and slowly top with cold Champagne; don't stir. Express the lemon twist over the drink, then place it in the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Essentially an Old-Fashioned with Champagne standing in for the whiskey. Because Champagne is lower in alcohol and fizzy, it isn't diluted by stirring over ice (that would also kill the bubbles), so it is built in the flute: start with cold Champagne.

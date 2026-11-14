@@ -1,6 +1,5 @@
 ---
 type: liqueur
-in_stock: false
 approximate_cost:
 category: "Amaro"
 style: "medium"
@@ -10,6 +9,11 @@ character: "Bittersweet orange aperitif made with the classic Amer Picon recipe 
 # Bigallet China-China Amer
 
 **Category:** Amer
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Bittersweet orange aperitif made with the classic Amer Picon recipe in mind; used in place of modern, less bitter Amer Picon.

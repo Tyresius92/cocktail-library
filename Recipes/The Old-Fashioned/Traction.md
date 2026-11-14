@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: shake
 glass: rocks
 page: 37
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Traction
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, muddle the lemon wedges and strawberry halves. Add the remaining ingredients and shake with ice. Double strain into an Old-Fashioned glass filled with crushed ice. Garnish and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2014. Sherry cobblers were all the rage in nineteenth-century America; here rum shines a light on the dried-fruit flavors often hidden in amontillado.

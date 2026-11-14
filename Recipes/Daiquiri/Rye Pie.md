@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned
 page: 283
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Rye Pie
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass filled with ice cubes. Garnish with the lemon wheel and cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 David Fernie and Matthew Brown, 2016. Appendix cocktail; root assigned by me.

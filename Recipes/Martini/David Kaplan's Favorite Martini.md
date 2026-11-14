@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 80
-tried: false
-rating: 
-date_tried: 
 ---
 
 # David Kaplan's Favorite Martini
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Friends and Family: David Kaplan, cofounder of Proprietors LLC (Death & Co). His essay (condensed): he fell for the Martini after a proper 5-to-1 Gin Martini at the Pegu Club, then one at Milk & Honey with an impossibly cold glass. For him it's an evening drink that can be tweaked to a meal (more vermouth to lower proof, more savory or citrusy), a "liquid resume" for the bartender, the most personal cocktail, and the best results depend on mastering temperature and dilution more than proportions.

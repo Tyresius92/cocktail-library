@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: stir
 glass: highball
 page:
-tried: true
-rating: 4
-date_tried: 2012-11-16
 ---
 
 # Jack & Coke
@@ -22,6 +19,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 *Describe preparation here.*
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 *Your tasting notes, substitution ideas, etc.*

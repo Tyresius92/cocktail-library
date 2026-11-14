@@ -3,9 +3,6 @@ root: "#flip"
 method: stir
 glass: coupe
 page: 272
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Hans Gruber
@@ -30,6 +27,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Using a bowl and whisk, whip the cream and maple syrup together just until soft peaks start to form. In a mixing glass, stir the remaining ingredients with ice. Strain into a chilled coupe. Carefully spoon the whipped cream on top, then mist the blackstrap rum over the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015, created for a holiday menu at the Walker Inn. A layered White Russian riff with the flavor of pecan pie with ice cream: pecan rum and brown-butter brandy balanced by the PX sherry. Maple-flavored whipped cream is a favorite revelation. If flavoring whipped cream with alcohol (orange curacao, dry sherry), keep it to about 1/2 oz per cup of cream or it gets hard to whip.

@@ -1,28 +1,38 @@
 # Ingredients on Hand
-Tick a box to mark something in stock (it edits that ingredient's `in_stock` field). The drinks on the [[Dashboard]] update after a moment.
+Tick a box to mark something in stock. Your stock list is saved in the [[My Bar]] note, which git ignores, so updates to this vault never overwrite it. The drinks on the [[Dashboard]] update after a moment.
 
 ```dataviewjs
 // Ingredient stock table with editable in-stock checkboxes.
-// Ticking a box rewrites only the `in_stock:` line in that ingredient note's frontmatter.
-const app = dv.app;
+// Ticking a box adds or removes the ingredient's name in the `in_stock` list of the "My Bar" note.
 const ST = (window.__cocktailStock = window.__cocktailStock || { q: "", status: "all", closed: {} });
 const GROUPS = ["Spirits", "Liqueurs & Fortified", "Bitters", "Acids & Juices", "Syrups & Sweeteners", "Other"];
 
+const app = dv.app;
 const items = dv.pages('"Ingredients"').where(p => !p.is_category).array();
 const groupOf = p => p.file.path.split("/")[1] || "Other";
 const nameOf = p => p.file.name;
 
-async function setStock(path, val) {
-  const f = app.vault.getAbstractFileByPath(path);
-  if (!f) return;
-  await app.vault.process(f, t => {
-    const m = t.match(/^---\n([\s\S]*?)\n---/);
-    if (!m) return t;
-    const fm = /^in_stock:.*$/m.test(m[1])
-      ? m[1].replace(/^in_stock:.*$/m, "in_stock: " + val)
-      : m[1] + "\nin_stock: " + val;
-    return t.slice(0, m.index) + "---\n" + fm + "\n---" + t.slice(m.index + m[0].length);
+const BAR = "My Bar.md";
+const BAR_TEMPLATE = "---\nin_stock: []\ntried: {}\n---\n\n# My Bar\n\nThis note records what you have in stock and which drinks you have tried. It is created automatically and git ignores it, so pulling updates never overwrites it.\n\nTick boxes on [[Ingredients on Hand]], or in any ingredient or recipe note.\n";
+const barFm = () => { const f = app.vault.getAbstractFileByPath(BAR); return (f && app.metadataCache.getFileCache(f)?.frontmatter) || {}; };
+async function ensureBar() {
+  let f = app.vault.getAbstractFileByPath(BAR);
+  if (f) return f;
+  try { f = await app.vault.create(BAR, BAR_TEMPLATE); } catch (e) { f = app.vault.getAbstractFileByPath(BAR); }
+  return f;
+}
+const sortNames = a => a.sort((x, y) => x.localeCompare(y, undefined, { sensitivity: "base" }));
+const readSet = () => { const s = barFm().in_stock; return new Set(Array.isArray(s) ? s : []); };
+await ensureBar();
+const stockSet = readSet();
+async function setStock(name, val) {
+  const f = await ensureBar();
+  await app.fileManager.processFrontMatter(f, fm => {
+    const s = new Set(Array.isArray(fm.in_stock) ? fm.in_stock : []);
+    if (val) s.add(name); else s.delete(name);
+    fm.in_stock = sortNames([...s]);
   });
+  if (val) stockSet.add(name); else stockSet.delete(name);
 }
 
 const root = dv.container.createEl("div");
@@ -43,13 +53,13 @@ function draw() {
   body.empty();
   const q = ST.q.trim().toLowerCase();
   const match = p => {
-    const on = p.in_stock === true;
+    const on = stockSet.has(nameOf(p));
     if (ST.status === "in" && !on) return false;
     if (ST.status === "out" && on) return false;
     if (!q) return true;
     return [nameOf(p), p.category, p.style].some(s => (s || "").toString().toLowerCase().includes(q));
   };
-  const total = items.length, have = items.filter(p => p.in_stock === true).length;
+  const total = items.length, have = items.filter(p => stockSet.has(nameOf(p))).length;
   summary.setText(have + " of " + total + " in stock");
   for (const g of GROUPS.concat([...new Set(items.map(groupOf))].filter(x => !GROUPS.includes(x)))) {
     const all = items.filter(p => groupOf(p) === g);
@@ -58,7 +68,7 @@ function draw() {
     const det = body.createEl("details");
     det.open = !ST.closed[g] || !!q;
     det.addEventListener("toggle", () => { if (!q) ST.closed[g] = !det.open; });
-    det.createEl("summary", { text: g + " (" + all.filter(p => p.in_stock === true).length + " of " + all.length + " in stock)" });
+    det.createEl("summary", { text: g + " (" + all.filter(p => stockSet.has(nameOf(p))).length + " of " + all.length + " in stock)" });
     const tbl = det.createEl("table");
     const hr = tbl.createEl("thead").createEl("tr");
     for (const h of ["Have", "Ingredient", "Category", "Style"]) hr.createEl("th", { text: h });
@@ -66,8 +76,8 @@ function draw() {
     for (const p of rows) {
       const tr = tb.createEl("tr");
       const cb = tr.createEl("td").createEl("input", { attr: { type: "checkbox" } });
-      cb.checked = p.in_stock === true;
-      cb.addEventListener("change", async () => { cb.disabled = true; await setStock(p.file.path, cb.checked); p.in_stock = cb.checked; cb.disabled = false; });
+      cb.checked = stockSet.has(nameOf(p));
+      cb.addEventListener("change", async () => { cb.disabled = true; await setStock(nameOf(p), cb.checked); cb.disabled = false; });
       const a = tr.createEl("td").createEl("a", { text: nameOf(p), cls: "internal-link", attr: { "data-href": p.file.path, href: p.file.path } });
       tr.createEl("td", { text: (p.category || "").toString() });
       tr.createEl("td", { text: (p.style || "").toString() });

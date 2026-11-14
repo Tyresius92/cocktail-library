@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 88
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Watercress
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Garnish with the apple slice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Looks savory, but making the infused gin with a centrifuge releases the plant's peppery flavors without making the gin taste like a liquid salad. No centrifuge: lightly muddle a few watercress leaves with the vermouths and peach liqueur, remove them, then build the cocktail. A small measure of peach liqueur adds fruity complexity, like dried fruit in a salad of bitter greens.

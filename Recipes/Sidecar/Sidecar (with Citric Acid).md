@@ -3,9 +3,6 @@ root: "#sidecar"
 method: stir
 glass: coupe
 page: 192
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Sidecar (with Citric Acid)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Replacement experiment (p192): perceptible acidity but no juicy pulp confounds expectations of a Sidecar. Authors' verdict: this stirred version is not a better cocktail. Alternative acids can turn drinks usually shaken and frothy into smooth stirred ones.

@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: double Old-Fashioned
 page: 278
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Black Forest
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Mist the top of the drink with the tincture.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Bryan Bruce and Devon Tarby, 2016. Uses a tiny amount of dense amaro beneath the core flavor (see [[_Notes - Amaro]]). Appendix cocktail; root assigned by me.

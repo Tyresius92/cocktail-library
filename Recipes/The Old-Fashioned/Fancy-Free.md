@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 13
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Fancy-Free
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. An early example of swapping sugar for a sweet, flavorful liqueur. Maraschino isn't as sweet as simple syrup (and it has proof), so the quantity goes up to 1/2 oz.

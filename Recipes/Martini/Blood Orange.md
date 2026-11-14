@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: coupe
 page: 86
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Blood Orange
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled coupe. Garnish with the blood orange wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Bryan Bruce, 2016. Blood orange juice is flabby, but the zest is fragrant with a bright, almost savory orange flavor, so it appears in an infused vermouth. The Cognac bridges the rye's spiciness and the vermouth's bitter notes.

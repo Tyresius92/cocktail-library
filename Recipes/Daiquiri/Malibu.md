@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 282
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Malibu
@@ -31,6 +28,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Serve with the toasted coconut chips alongside.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Appendix cocktail; root assigned by me.

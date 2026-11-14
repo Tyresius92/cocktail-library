@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: Collins
 page: 218
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Normandie Club Bloody Mary
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Rub the lemon wedge along the upper 1/2 inch of a Collins glass, halfway around the circumference, then roll the wet portion in the Lemon Pepper Salt. Fill the glass with ice cubes. Add the remaining ingredients and stir a few times. Garnish with the cherry tomato and lemon wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Fresh tomato juice has thin flavor and separates when mixed with booze, so the mix combines fresh tomato juice with a bit of bottled juice to stabilize texture. No grainy spices or horseradish; instead fresh celery and bell pepper juice. Savory aquavit deepens the flavor, but the mix is versatile: swap in vodka, gin or even amontillado sherry. See [[_Notes - Rimming]].

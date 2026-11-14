@@ -3,9 +3,6 @@ root: "#flip"
 method: shake
 glass: coupe
 page: 257
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Brandy Alexander
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice. Double strain into a chilled coupe. Garnish with a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Omits the egg and relies on cream; a rich liqueur serves as the sweetener. The Alexander has many variants based on different cores; the authors favor a rich Cognac, as in their [[Brandy Flip]]. Slightly higher alcohol, so shake a bit longer so it's diluted enough to fill a standard coupe.

@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: Collins
 page: 280
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Endless Summer
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a Collins glass filled with ice cubes. Garnish with the grapefruit wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Appendix cocktail; root assigned by me.

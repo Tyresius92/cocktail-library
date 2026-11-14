@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 192
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Sidecar (Classic)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Control for the alternative-acid experiment (p192): make this and [[Sidecar (with Citric Acid)]] and taste side by side.

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 193
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Blood and Sand
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A Sidecar variation using ingredients more common in stirred cocktails: orange juice gives moderate acidity to complement sweet vermouth and Cherry Heering. See [[Blood and Sand (Ours)]] for the authors' tweak.

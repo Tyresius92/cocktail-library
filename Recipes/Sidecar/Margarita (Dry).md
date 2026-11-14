@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: double old-fashioned
 page: 167
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Margarita (Dry)
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Rub the lime wedge along the upper 1/2 inch of a double Old-Fashioned glass, halfway around, and roll the rim in kosher salt. Add 1 large ice cube. Shake the remaining ingredients with ice and strain into the glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The Classic without simple syrup (p167).

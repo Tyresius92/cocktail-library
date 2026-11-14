@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: toddy mug
 page: 40
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Gun Club Toddy
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients (except the water) in a mixing glass and stir. Pour into a toddy mug, then pour in the boiling water. Garnish with the apple slices.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2012. Built to be soothing with as many comforting elements as possible: Calvados and Pineau des Charentes (an aperitif of unfermented grape juice and young Cognac) as the backbone, plus chamomile, lemon and honey.

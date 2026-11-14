@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: build
 glass: Julep tin
 page: 283
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Salvation Julep
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a Julep tin and fill it about halfway with crushed ice. Holding the tin by the rim, stir, churning the ice as you go, for about 10 seconds. Add more crushed ice to fill the tin about two-thirds full and stir until the tin is completely frosted. Add more ice to form a cone above the rim. Garnish with the mint sprig and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Jonathan Armstrong, 2015. Appendix cocktail; root assigned by me.

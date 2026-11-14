@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Japanese whisky"
 style: "single malt"
@@ -10,6 +9,11 @@ character: "A 12-year Japanese whisky that's soft and elegant with only a whispe
 # Hakushu 12-year Japanese whisky
 
 **Category:** Japanese whisky
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 A 12-year Japanese whisky that's soft and elegant with only a whisper of smokiness; the base of the book's [[Ideal Whisky Highball]] because it doesn't overpower the light tingle of sparkling water (p200).

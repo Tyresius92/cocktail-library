@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 23
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ned Ryerson
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2012. A small portion of young apple brandy in the core adds juicy flavor, and the Castilian bitters bring orange, licorice, and sarsaparilla notes. An Old-Fashioned reimagined with just modest changes.

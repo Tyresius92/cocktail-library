@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 91
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Sonoma
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Mist the top of the drink with the infused vodka.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. A riff on the Bamboo inspired by "What would it taste like to drink wine while standing in a Sonoma farm?": fruity Chardonnay, a touch of honey, the bright acidity of verjus, and Calvados (Normandy, another bucolic region). The white pepper spray gives the distinct smell of a barn.

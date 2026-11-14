@@ -3,9 +3,6 @@ root: "#flip"
 method: short shake
 glass: Collins
 page: 262
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Jump in the Line
@@ -30,6 +27,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the orange half wheel and strawberry. Add the remaining ingredients and short shake with ice, then double strain into a Collins glass. Fill the glass with crushed ice. Garnish with the pineapple leaf, orange half wheel and mint sprig, and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Lauren Corriveau, 2015. A sophisticated nondairy riff on the tropical Pina Colada (p269), with Amaro di Angostura seasoning an amontillado core. A deeply complex poolside cocktail.

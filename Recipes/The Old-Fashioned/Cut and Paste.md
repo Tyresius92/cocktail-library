@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 35
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Cut and Paste
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Rinse a chilled Old-Fashioned glass with absinthe and dump. Stir the remaining ingredients over ice, then strain into the glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2012. Though aged eight years, the apple brandy doesn't taste much like an aged spirit, so pot-distilled Irish whiskey (vanilla and spice) joins the core. Irish whiskey has an affinity for honey, and honey syrup keeps the drink light and crisp where Demerara Gum Syrup would probably be too cloying.

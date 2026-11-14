@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 23
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Cold Girl Fever
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Based on the [[Golden Boy]] (raisins and whiskey) but shares no ingredients with it; adds a touch of peaty Islay scotch to the core and balances it with raisin-infused honey syrup.

@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: pint glass
 page: 141
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ramos Gin Fizz
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients (except the seltzer), then fill the shaker with ice cubes and shake for 5 minutes. Double strain into a pint glass. Slowly add the seltzer, occasionally tapping the bottom of the glass on a table or flat surface to settle the foam. As you finish adding the seltzer, a white puck of foam should form on top of the drink. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Perhaps the most famous fizz, a New Orleans cocktail in which the clean simplicity of a [[Silver Fizz]] is enriched with heavy cream. Traditionally shaken a full ten minutes for a light, ethereal texture like a boozy liquid cloud; the authors have never found ten minutes necessary (more theater) and say five is plenty. Flag: a nitrous-oxide whipper version is on p265 (not digitized yet).

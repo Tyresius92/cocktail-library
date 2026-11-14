@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: short shake
 glass: highball
 page: 217
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Harvey Wallbanger
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Short shake all the ingredients with 3 ice cubes for about 5 seconds, then strain into a Highball glass filled with ice. Garnish with the orange half wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Basically a Screwdriver with a float of Galliano, where a small amount of liqueur adds flavor and complexity. The authors pull back the vodka to compensate for the Galliano's alcohol and, as with their Tequila Sunrise, add a little citrus (lemon) to offset the sweetness. They skip floating the Galliano because it creates an unbalanced drink and the liqueur drops to the bottom anyway.

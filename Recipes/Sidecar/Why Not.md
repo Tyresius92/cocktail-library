@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: double old-fashioned
 page: 182
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Why Not
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass filled with ice. Garnish with the sage leaf and lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2017. A Whiskey Sour (p130) meets a Sidecar (p151). A simple whiskey Sidecar would be balanced and tasty, but maple syrup replaces half the Cointreau for sweetness and rich flavor, and sage leaf adds herbal aroma: a refreshing cocktail for fall and winter.

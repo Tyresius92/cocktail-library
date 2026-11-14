@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 188
-tried: false
-rating: 
-date_tried: 
 ---
 
 # La Valencia
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2008. A riff on the [[Champs-Elysees]] with a split base of dry, salty manzanilla and chamomile-infused rye. The honeyed, herbal yellow Chartreuse is perfect for drawing out the chamomile.

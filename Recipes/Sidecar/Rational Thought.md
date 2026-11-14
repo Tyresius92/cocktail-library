@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 171
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Rational Thought
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2017. One of the authors' favorite ways to show novice bartenders how to use pear brandy: in a split base in a classic Sidecar. The Paul Beau is chosen for its earthiness, like pear skin; a hint of cinnamon syrup (p52) warms and rounds off the sharp boozy edges.

@@ -3,9 +3,6 @@ root: "#flip"
 method: whip
 glass: double Old-Fashioned
 page: 269
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Pina Colada
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a shaker and whip, shaking with a few pieces of crushed ice just until incorporated, then dump into a double Old-Fashioned glass and fill with crushed ice. Garnish with the pineapple wedge and cherry and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic (printed "Piña Colada"). Despite the beach image, the recipe makes it basically another Flip rather than a sour: rum brings proof, coconut cream adds fat and sweetness, pineapple juice adds sweetness and acidity. Compare [[Jump in the Line]].

@@ -1,6 +1,5 @@
 ---
 type: fortified
-in_stock: false
 approximate_cost:
 category: "Sweet vermouth"
 style: "Italian"
@@ -10,6 +9,11 @@ character: ""
 # Cocchi Vermouth di Torino
 
 **Category:** Sweet vermouth
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

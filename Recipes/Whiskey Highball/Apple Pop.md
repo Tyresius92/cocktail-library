@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: highball
 page: 222
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Apple Pop
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients except the soda in a Highball glass, then add 3 ice cubes. Stir for 3 seconds. Add the soda and stir once. Garnish with the mint sprig and celery leaf.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. A highbrow Highball inspired by the Gin and Tonic's simplicity: unaged French apple brandy, a touch of pear brandy and herbal blanc vermouth, stretched with a homemade Apple Celery Soda.

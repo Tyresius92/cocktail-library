@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 128
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Southside
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the mint. Add the remaining ingredients and shake with ice. Strain into a chilled coupe and garnish with the mint leaf.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Bartenders debate lemon vs lime juice for this; the book leans lime for its brightness with mint. Similar to the [[Fresh Gimlet]] but more refreshing thanks to the muddled mint, and slightly more complex thanks to the dash of bitters.

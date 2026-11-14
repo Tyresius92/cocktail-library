@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 155
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Sidecar (Balanced)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Step three of the balance experiment (p155): the classic recipe ([[Sidecar]]) without garnish. An almost perfect balance, with the full-bodied Cognac complemented by the bright sweetness of Cointreau and the refreshing lemon. It tends to be a bit dry for most people, so the book's root recipe ([[Ideal Sidecar]], p152) adds a tiny amount of simple syrup.

@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: rocks, 1 large ice cube
 page: 
-tried: true
-rating: 
-date_tried: 
 ---
 
 # Grant Likes to Smoke
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients with ice, then strain into a rocks glass over 1 large ice cube. Smoke the drink with a smoke chimney.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Personal recipe (not from the book). Equal parts, like the [[Negroni]], with mezcal as the base and the rhubarb-smoke Sfumato standing in for Campari, so the drink is smoky twice over. asdf

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 185
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Modern Display
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David (Nitecap; Friends and Family, p185). Her Sidecar approach: it's all about splitting up the modifiers. Cointreau is both sweet and dry, so when replacing it she uses something sweet (a flavored syrup) plus something dry, like sherry. See [[_Notes - Natasha David]].

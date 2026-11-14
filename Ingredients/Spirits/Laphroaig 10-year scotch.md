@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Scotch"
 style: "Islay"
@@ -10,6 +9,11 @@ character: "Peaty Islay scotch. Islay. Intensely smoky and briny; a few drops ca
 # Laphroaig 10-year scotch
 
 **Category:** Scotch
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Peaty Islay scotch.

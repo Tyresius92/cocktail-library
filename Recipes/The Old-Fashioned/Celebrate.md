@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: flute
 page: 29
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Celebrate
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients (except the Champagne) over ice, then strain into a chilled flute. Pour in the Champagne and quickly dip the barspoon into the glass to gently mix the Champagne with the cocktail. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Everything other than the Champagne takes up more volume than a sugar cube doused in bitters, but functions similarly, amplifying flavors the Champagne already has (stone fruit, breadiness, nuttiness, spice). Adds Champagne acid, a combination of tartaric and lactic acid that enhances the tang of a dry Champagne.

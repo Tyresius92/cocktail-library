@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 280
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ganymede
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Blake Walker, 2016. Appendix cocktail; root assigned by me.

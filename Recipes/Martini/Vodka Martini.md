@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 61
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Vodka Martini
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Garnish with the lemon twist (expressed over the drink and set on the edge of the glass) or olive.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 When vodka is the core, the vermouth is frequently decreased: gin's strong botanicals stand up to vermouth, but vodka's streamlined flavor is easily overshadowed. Some recipes skip vermouth altogether, but a bit adds complexity beyond chilled vodka.

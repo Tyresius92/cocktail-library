@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned, 1 large ice cube
 page: 132
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Smokescreen
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the mint with the simple syrup. Add the remaining ingredients and shake with ice. Strain into a double Old-Fashioned glass over 1 large ice cube. Garnish with the mint sprig.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2010. Same model as [[Smoke and Mirrors]] but with green Chartreuse for herbaceousness instead of absinthe. Absinthe gives Smoke and Mirrors an anise undertone that contrasts with the smoky scotch; Chartreuse gives the Smokescreen a savory quality thanks to its grassy, tarragon-like flavor, which draws out the Laphroaig's vegetal side.

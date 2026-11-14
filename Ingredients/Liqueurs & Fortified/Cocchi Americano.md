@@ -1,6 +1,5 @@
 ---
 type: fortified
-in_stock: false
 approximate_cost:
 category: "Aperitif wine"
 style: "blanc"
@@ -10,6 +9,11 @@ character: ""
 # Cocchi Americano
 
 **Category:** Aromatized wine
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

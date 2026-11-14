@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: Collins
 page: 138
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Tom Collins
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the seltzer into a Collins glass. Short shake the remaining ingredients with ice for about 5 seconds, then strain into the glass. Fill the glass with ice cubes and garnish with the orange half wheel and cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A sour served in a tall glass with ice and seltzer; see [[_Notes - Collins-Style Drinks]] for the short-shake and seltzer-first technique. Kept as a basic, extra-tart Collins; the 1:1 juice-to-sweetener ratio rule is explained in [[Grapefruit Collins]].

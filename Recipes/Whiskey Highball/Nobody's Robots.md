@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: carbonated
 glass: highball
 page: 221
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Nobody's Robots
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Chill all the ingredients. Combine in a carbonating bottle, charge with CO2 and gently shake to dissolve it (see [[_Notes - Carbonating Cocktails]]). Refrigerate at least 20 minutes, preferably 12 hours, before opening. Pour into an ice-filled Highball glass and garnish with the orange half wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2013. A nerdy evolution of the [[Screwdriver]], built for a keg or carbonation system and seasoned to be more concentrated than a typical Highball, so it drinks like a more sophisticated cocktail. Seltzer is stirred into the carbonated mix rather than topped.

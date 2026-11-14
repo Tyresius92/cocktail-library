@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: true
 approximate_cost:
 category: "Eau-de-vie"
 style: "nectarine"
@@ -10,6 +9,11 @@ character: "Beaver Pond Distillery. Unaged fruit brandy (eau-de-vie) from nectar
 # Beaver Pond Nectarine Brandy
 
 **Category:** Eau-de-vie
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Unaged nectarine eau-de-vie.

@@ -3,9 +3,6 @@ root: "#flip"
 method: shake
 glass: coupe
 page: 269
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Golden Cadillac
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice. Double strain into a chilled coupe. Garnish with a few grates of dark chocolate.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Another offshoot of the [[Grasshopper]], with Galliano's vanilla and licorice flavors steering it elsewhere. Dark chocolate on top draws out the liqueur's pleasantly bitter qualities.

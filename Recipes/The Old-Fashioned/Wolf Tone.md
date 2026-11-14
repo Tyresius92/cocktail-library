@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: double Old-Fashioned
 page: 284
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Wolf Tone
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients with ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2012. Appendix cocktail; root assigned by me.

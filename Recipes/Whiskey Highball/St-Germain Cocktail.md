@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: highball
 page: 223
-tried: false
-rating: 
-date_tried: 
 ---
 
 # St-Germain Cocktail
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the St-Germain into a Highball glass. Fill with ice cubes, then pour in the sparkling wine and seltzer and quickly dip the barspoon in to gently mix. Express the lemon twist over the drink, then place it in the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Same principle as the [[Aperol Spritz]]: a modest amount of sparkling wine plus seltzer, so the wine doesn't overpower the delicate liqueur.

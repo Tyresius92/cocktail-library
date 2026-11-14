@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: wine glass
 page: 226
-tried: false
-rating: 
-date_tried: 
 ---
 
 # King's Landing
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine the infused vermouth, pear liqueur and lemon juice in a wineglass. Fill the glass with ice cubes, then pour in the cava and quickly dip the barspoon into the glass to gently mix. Garnish with the lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2013. Sour-style ingredients, but cava and the birch-infused vermouth make up most of the volume, with small amounts of lemon and pear liqueur for balance, which keeps it firmly a Highball.

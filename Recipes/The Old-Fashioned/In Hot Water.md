@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: toddy mug
 page: 38
-tried: false
-rating: 
-date_tried: 
 ---
 
 # In Hot Water
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients (except the water) in a mixing glass and stir. Pour into a toddy mug, then pour in the boiling water. Garnish with the cinnamon stick.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Brittany Fells, 2014. Developed for the Rose in chilly Jackson Hole, Wyoming. Evokes a boozy cup of coffee: Galliano Ristretto brings dense espresso flavors and cardamom bitters add savory, chicory-like notes.

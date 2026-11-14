@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: flute
 page: 142
-tried: false
-rating: 
-date_tried: 
 ---
 
 # French 75
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (except the sparkling wine) with ice, then strain into a chilled flute. Pour in the sparkling wine, and quickly dip the barspoon into the glass to gently mix the wine with the cocktail. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Champagne does make everything better, including a Collins. Some bartenders build it in a tall glass with ice; the authors prefer the swankier flute. Introducing sparkling wine changes the balance by adding proof and flavor, so the formula uses less of all three sour elements: here half the gin and two-thirds of the lemon juice and simple syrup.

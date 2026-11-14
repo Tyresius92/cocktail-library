@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 24
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Beach Bonfire
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Using a PolyScience Smoking Gun or something similar, shoot some hickory smoke over the drink to create just a whisper of smoke aroma (see page 274 for instructions). Garnish with the dehydrated pineapple and serve with the glass of beer alongside.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2015. Developed for the inaugural Pacific Coast Highway-themed menu at the Walker Inn: sitting around a fire taking alternating sips from a flask of whiskey and a cold beer. Cachaca adds chocolate and cinnamon notes, and pineapple syrup adds a nod to summer without tasting tropical. At home you can skip the smoke and the beer.

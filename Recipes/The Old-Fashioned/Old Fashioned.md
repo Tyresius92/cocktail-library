@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 3
-tried: false
-rating: 
-date_tried: 
 ---
 
 # The Classic Old-Fashioned
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Muddle the sugar cube and bitters in an Old-Fashioned glass. Add the bourbon and 1 large ice cube and stir until chilled. Garnish with the lemon and orange twists.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The classic spec: in its simplest form, just spirit, sugar, bitters, and water (in the form of ice). Compare with [[Ideal Old-Fashioned]], the book's root recipe.

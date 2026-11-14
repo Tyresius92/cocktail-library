@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 90
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Abbot Kinney
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Twist the celery ribbon into a spiral and balance it on the rim of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Although stirred, it works like a spritz: low ABV and enough acidity to be a refreshing palate cleanser with a meal.

@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 129
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Jack Rose
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with the apple slice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Grenadine (pomegranate juice spiked with orange oil) is juicy and tangy, which highlights the apple brandy. Lime provides a counterpoint to the grenadine's richness, cutting through the deep sweetness of the syrup.

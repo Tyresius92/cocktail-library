@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 22
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Snowbird
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the grapefruit twist over the drink and place it into the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2014. Uses the split-base strategy of the [[Ned Ryerson]]: pull back on the rye and add apple brandy to accent it. St-Germain makes everything taste better, and a dash of celery bitters adds just enough savoriness to pull it back from excessive sweetness.

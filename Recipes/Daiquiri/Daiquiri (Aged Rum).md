@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 113
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daiquiri (Aged Rum)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Made with an aged Jamaican rum blend: rich, fruity peach and nectarine flavors. Playing with the core spirit can lead a cocktail in many directions.

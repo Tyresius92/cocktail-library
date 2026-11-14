@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 179
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Last Word
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Herbaceous green Chartreuse and funky maraschino replace the Cointreau. The two liqueurs are front and center and bring a lot of proof, so the gin is reduced in proportion; they bring sweetness and balance the lime's acidity while the gin dries the drink out.

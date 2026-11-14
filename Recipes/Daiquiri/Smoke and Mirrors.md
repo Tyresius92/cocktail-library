@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned, 1 large ice cube
 page: 131
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Smoke and Mirrors
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the mint with the simple syrup. Add the remaining ingredients and shake with ice. Strain into a double Old-Fashioned glass over 1 large ice cube. Garnish with the mint sprig.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2010. As in the [[Kentucky Maid]], highly herbaceous mint helps bridge the gap between seemingly mismatched aged spirits and lime juice, a function also served by the absinthe. It has exactly the same ingredients as the [[Smokescreen]] except the accent: absinthe here, green Chartreuse there. Only small amounts of these accents, yet two very different flavor profiles, showing how something simple and seemingly minor can make a world of difference.

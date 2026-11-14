@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: shake
 glass: wineglass
 page: 284
-tried: false
-rating: 
-date_tried: 
 ---
 
 # SS Cruiser
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (except the cremant) with ice, then double strain into a wineglass filled with ice. Pour in the cremant, and quickly dip the barspoon into the glass to gently mix the wine with the cocktail. Garnish with the mint sprig and raspberry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Alex Day, 2015. Sparkling-wine spritz style; filed under Whisky Highball (see [[_Notes - Wine Spritzes]]). Appendix cocktail; root assigned by me.

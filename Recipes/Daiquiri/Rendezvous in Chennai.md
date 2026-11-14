@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: stir
 glass: double Old-Fashioned
 page: 283
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Rendezvous in Chennai
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Robert Sachse and Blake Walker, 2017. Appendix cocktail; root assigned by me.

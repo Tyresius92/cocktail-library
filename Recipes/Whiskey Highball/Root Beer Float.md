@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: carbonated
 glass: Highball
 page: 283
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Root Beer Float
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Chill all the ingredients. Combine them in a carbonation bottle, charge with CO2 and gently shake to help dissolve it (see [[_Notes - Carbonating Cocktails]]). Refrigerate at least 20 minutes before opening. To serve, carefully pour into a Highball glass with ice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Filed under Whisky Highball (carbonated Highball). Appendix cocktail; root assigned by me.

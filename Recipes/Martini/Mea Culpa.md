@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 87
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Mea Culpa
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Bitter and sweet ingredients can act as glue, binding disparate components. Small amounts of two liqueurs (bittersweet China-China Amer and rich apricot) marry the vodka with two sherries, giving a quiet backbone of dried fruit and nuts with a pleasant lingering bitterness.

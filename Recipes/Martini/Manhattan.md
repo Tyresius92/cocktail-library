@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 84
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Manhattan
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Basically a Martini with rye in place of gin and sweet vermouth in place of dry: the yang to the Martini's yin. Shows how altering one element calls for other adjustments: aged, higher-proof spirits need modifiers that support their intensity without being smothered (rye substituted straight into a Martini would overshadow the vermouth). Angostura connects the peppery rye and sweet vermouth. The book chose the Martini as its chapter focus because the Manhattan's bolder ingredients make subtle changes harder to perceive.

@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 77
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Martini (Our Root Recipe)
@@ -23,6 +20,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The middle of the experiment: the root recipe without bitters and garnish. Marries gin and vermouth: both discernible but melded into a concise, harmonious flavor. Compare with [[Ideal Gin Martini]].

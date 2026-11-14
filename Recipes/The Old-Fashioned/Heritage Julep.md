@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: build
 glass: julep tin
 page: 32
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Heritage Julep
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Build as for a [[Mint Julep]]: rub the interior of a Julep tin with the mint bouquet and set it aside, add the remaining ingredients, fill the tin halfway with crushed ice and stir, churning the ice, for about 10 seconds. Add more crushed ice to two-thirds full and stir until the tin is frosted, then cone more ice above the rim. Garnish with the mint bouquet and apple slices, dust the top of the mint with confectioners' sugar, and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day and Devon Tarby, 2015. Baked stone fruit and warm autumn flavors make this a good option for an Old-Fashioned lover who wants something more refreshing. Pear is doubled down on (brandy for spirituous heat and gritty texture, liqueur for supple fruitiness), and Amaro Montenegro pushes it into aperitif territory.

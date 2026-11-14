@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: true
 approximate_cost:
 category: "Amaro"
 style: "aperitivo"
@@ -10,6 +9,11 @@ character: ""
 # Campari
 
 **Category:** [[Amaro]]
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

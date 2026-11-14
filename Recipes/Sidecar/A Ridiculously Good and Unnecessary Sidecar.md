@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 157
-tried: false
-rating: 
-date_tried: 
 ---
 
 # A Ridiculously Good and Unnecessary Sidecar
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 A sidebar (p157): in the interest of experiencing the finer things at least once, buy an expensive but perfect bottle of Cognac and make this. The difference between this and the root recipe ([[Ideal Sidecar]]) reflects the qualities that this much older and denser Cognac brings.

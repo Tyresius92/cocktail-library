@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Rum"
 style: "white"
@@ -10,6 +9,11 @@ character: "Light Spanish-style white rum. Panama. Created specifically for cock
 # Cana Brava white rum
 
 **Category:** [[Rum]]
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Light Spanish-style white rum.

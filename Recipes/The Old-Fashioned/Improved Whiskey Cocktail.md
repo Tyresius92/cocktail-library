@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 17
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Improved Whiskey Cocktail
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic, and probably one of the first popular Old-Fashioned variations. Where the [[Fancy-Free]] has one dash of orange bitters and keeps Angostura as the main seasoning, this one turns to absinthe for seasoning; the red-licorice and anise of the Peychaud's dials it up further and increases the impression of sweetness.

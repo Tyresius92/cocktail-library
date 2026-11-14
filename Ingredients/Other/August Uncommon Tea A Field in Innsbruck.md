@@ -1,12 +1,16 @@
 ---
 type: ingredient
-in_stock: false
 approximate_cost:
 ---
 
 # August Uncommon Tea A Field in Innsbruck
 
 **Category:** Ingredient
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

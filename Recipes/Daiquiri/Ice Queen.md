@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 143
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ice Queen
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the cucumber with the simple syrup. Add the remaining ingredients (except the sparkling wine) and shake with ice. Strain into a chilled coupe. Pour in the sparkling wine, and quickly dip the barspoon into the glass to gently mix the wine with the cocktail. Express the lime twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2015. Expands on the French 75's flexibility by bringing in elements from the [[Old Cuban]] (rum, mint, lime) and adding cucumber for a savory element.

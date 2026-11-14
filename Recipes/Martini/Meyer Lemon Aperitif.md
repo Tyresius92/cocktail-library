@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: coupe
 page: 91
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Meyer Lemon Aperitif
@@ -30,6 +27,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Batch (about 1 liter, makes ten drinks). Combine half of the sherry, vermouths, pisco and zest in an iSi whipper and pressure-infuse (method on p97); strain through a fine-mesh sieve into a large bowl. Repeat with the remaining half. Add the syrup, bitters and water and stir, then transfer to a 1-liter bottle, seal and refrigerate until cold. Serve in chilled coupes, garnished with a Meyer lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2016. A lighter, brighter Bamboo riff: a root-to-stem cocktail using the entire Meyer lemon: the zest infuses the cocktail, and leftover juice makes a Meyer lemon cordial (p285) that can be carbonated into a soda and served alongside. A sophisticated, refreshing party aperitif.

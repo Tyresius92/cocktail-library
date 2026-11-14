@@ -1,12 +1,16 @@
 ---
 type: sweetener
-in_stock: true
 approximate_cost:
 ---
 
 # Maple Syrup
 
 **Category:** Sweetener
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 The book calls for dark, robust maple syrup.

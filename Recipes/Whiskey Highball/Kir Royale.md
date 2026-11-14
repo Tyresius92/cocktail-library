@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: flute
 page: 223
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Kir Royale
@@ -23,6 +20,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the creme de cassis into a chilled flute, then pour in the Champagne and quickly dip the barspoon into the glass to gently mix. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Fruit liqueur as the flavoring for a sparkling-wine Highball; use a restrained amount so it doesn't oversweeten. Cassis's bright acidity keeps it balanced. Cremant de Bourgogne also works.

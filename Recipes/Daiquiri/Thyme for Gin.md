@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: rocks
 page: 
-tried: true
-rating: 
-date_tried: 
 ---
 
 # Thyme for Gin
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a rocks glass over fresh ice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Personal recipe (not from the book). Same skeleton as the [[Bee's Knees]]: gin, lemon and a sweetener, with the thyme liqueur adding herbal sweetness on top of the agave.

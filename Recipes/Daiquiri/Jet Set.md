@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: double Old-Fashioned
 page: 281
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Jet Set
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass over 1 large ice cube. Garnish with the mint sprig.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2016. Appendix cocktail; root assigned by me.

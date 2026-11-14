@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: stir
 glass: coupe
 page: 145
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Clarified Daiquiri
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The second half of the clarified juice experiment (p145): the same as the root recipe ([[Ideal Daiquiri]], which the book reprints here as "Daiquiri, Our Root Recipe") but with clarified lime juice, stirred rather than shaken. Clarified juice is a world apart from fresh: lighter and less penetrating, so the rum flavor is more pronounced.

@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 133
-tried: false
-rating: 
-date_tried: 
 ---
 
 # High Five
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with a high five.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2010. A riff on the [[Hemingway Daiquiri]] with a very similar formula but gin as the core. Aperol amplifies the bitterness of the grapefruit, and because Aperol isn't as sweet as the maraschino in the Hemingway, a bit more simple syrup is added.

@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 33
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Sazerac
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Rinse an Old-Fashioned glass with absinthe and dump. Stir the remaining ingredients over ice, then strain into the glass. Express the lemon twist over the drink and discard.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Spirit, sugar, bitters and citrus link it to the Old-Fashioned, but it is served neat (not on ice), the lemon twist is expressed and discarded rather than dropped in, and, most defining, the glass is rinsed with absinthe first. That highly aromatic rinse perfumes the drink until the glass is empty and sets the Sazerac and its variations apart. History: mid-1800s Francophilic New Orleans used Cognac; after phylloxera hit French vineyards the focus shifted to rye. Peychaud's (New Orleans-made, anise-forward) has been the constant; the book likes adding French absinthe and Angostura.

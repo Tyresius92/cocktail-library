@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: rocks
 page: 89
-tried: false
-rating: 
-date_tried: 
 ---
 
 # White Negroni
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Wayne Collins, 2000. Replaces the Negroni's rich, red cloak of sweet vermouth and Campari with light, citrusy Suze (a French aperitif) and floral Dolin blanc. A seasonal wardrobe swap: the book drinks classic Negronis year-round but likes the white in summer.

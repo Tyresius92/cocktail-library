@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 119
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daiquiri (More Lime Juice)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Lime juice up by 1/4 oz: fresh, lively and deeply satisfying. Because Cana Brava is a fairly light rum, the flavor of the lime (not just its acidity) becomes a bigger contributor. Identical to [[Daiquiri (Light Rum)]]. You may find it too tart; that's okay, Classic is probably more to your taste, and the realization is useful for choosing and modifying recipes.

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 168
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Between the Sheets
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The authors' ideal recipe (p168). The gum syrup (p54) gives body because the curacao is so dry.

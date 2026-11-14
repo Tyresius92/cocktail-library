@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: small white wine glass
 page: 242
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ideal Flip
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a small white wine glass. Garnish with a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The book's root Flip (printed "Our Ideal Flip"). Sherry is the core because it was prominent in the 19th-century heyday of cocktails and in the earliest Flips, but mostly because the authors favor fortified-wine Flips, especially oloroso-based. A rich demerara syrup completes it: decadent yet light and frothy.

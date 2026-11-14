@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 77
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Martini (Very Dry)
@@ -23,6 +20,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Part of the book's three-Martini balance experiment (orange bitters and garnish removed to focus on gin vs. vermouth). By far the driest: mostly about the gin, with vermouth a background player. Potent and cooling; may take your breath away.

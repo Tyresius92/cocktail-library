@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: double Old-Fashioned
 page: 281
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Little Victory
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then double strain into a double Old-Fashioned glass over 1 large ice cube. Garnish with the orange wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2013. Appendix cocktail; root assigned by me.

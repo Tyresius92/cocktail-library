@@ -1,6 +1,5 @@
 ---
 type: ingredient
-in_stock: false
 approximate_cost:
 category: "Sherry"
 style: "oloroso"
@@ -10,6 +9,11 @@ character: "Deep, complex oloroso sherry chosen as the core of the book's Ideal 
 # Gonzalez Byass Matusalem oloroso sherry
 
 **Category:** Sherry
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Deep, complex oloroso sherry chosen as the core of the book's [[Ideal Flip]] (p242).

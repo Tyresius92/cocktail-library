@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Chancellor
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. The book cites it (p250) as a tawny port that can stand up to single-malt scotch. See [[_Notes - Port]]. Appendix cocktail; root assigned by me.

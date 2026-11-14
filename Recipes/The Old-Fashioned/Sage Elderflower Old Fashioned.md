@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks, 1 large ice cube
 page: 
-tried: true
-rating: 
-date_tried: 
 ---
 
 # Sage Elderflower Old Fashioned
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Add the sage liqueur and elderflower water to a chilled rocks glass and stir. Add 1 large ice cube. Add the whiskey and stir.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Personal recipe (not from the book). The sage liqueur stands in for the sugar, and the elderflower water works like bitters, adding a floral seasoning.

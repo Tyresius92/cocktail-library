@@ -1,6 +1,5 @@
 ---
 type: bitters
-in_stock: true
 approximate_cost:
 ---
 
@@ -11,6 +10,11 @@ approximate_cost:
 - [[Regans' Orange Bitters]]
 - [[House Orange Bitters]]
 - 
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 *Tasting notes, substitution suggestions, where to buy.*

@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: true
 approximate_cost:
 category: "Scotch"
 style: "blended"
@@ -10,6 +9,11 @@ character: "Blended Scotch aged 12 years, 40% ABV. Smooth with fruit, vanilla an
 # Johnnie Walker Black Label scotch
 
 **Category:** Scotch
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Widely available blended Scotch; good in Highballs.

@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: rocks
 page: 89
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Strawberry Negroni
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Garnish with the strawberry slice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Trevor Easter and Devon Tarby, 2017. Doesn't veer far from the original but is profoundly delicious: a touch of clarified strawberry syrup rounds off Campari's bitter edges, and drops of chocolatey (but dry) cacao nib tincture deepen the bittersweet connection between Campari and sweet vermouth.

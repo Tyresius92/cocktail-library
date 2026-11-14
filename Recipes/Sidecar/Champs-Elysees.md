@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 186
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Champs-Elysees
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Express the lemon twist over the drink, then set it on the edge of the glass.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Green Chartreuse replaces the Cointreau. Because Chartreuse is high proof (110) and intensely herbaceous, the liqueur is dialed back, the Cognac increased slightly, and simple syrup added to push the drink back into balance.

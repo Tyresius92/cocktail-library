@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: coupe
 page: 252
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Coffee Cocktail
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a chilled coupe. Garnish with a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic (Jerry Thomas, 1887). The name refers to its appearance (it looks like a cup of coffee), not its flavor; there is no coffee. Shows how the core can be split between a fortified wine and a spirit: tawny port brings flavor and sweetness (so less syrup is needed) and Cognac supports it with woody complexity.

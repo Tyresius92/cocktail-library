@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 119
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daiquiri (Less Sweetener)
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Isn't very pleasant: even a small decrease in simple syrup makes the cocktail both too boozy and too tart.

@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: shake
 glass: double rocks
 page: 37
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Peeping Tomboy
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, muddle the lemon wedge and orange wheel with the syrup. Add the remaining ingredients and whip with a few pieces of crushed ice, just until incorporated. Strain into a double Old-Fashioned glass and top with more crushed ice, cresting it over the top of the glass. Garnish and serve with a straw.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2017. Almonds and stone fruits (apricots, peaches, plums) are botanically related and taste great together; amontillado continues the nutty theme and Cognac adds richness and proof. The template is balanced to accommodate fruit of various ripeness.

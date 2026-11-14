@@ -1,6 +1,5 @@
 ---
 type: fortified
-in_stock: false
 approximate_cost:
 category: "Sherry"
 style: "East India"
@@ -10,6 +9,11 @@ character: "Raisiny sherry. Book: mostly oloroso with a little PX, aged 3 years 
 # Lustau East India solera sherry
 
 **Category:** Fortified wine
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Raisiny sherry.

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 191
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Twist of Menton
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then double strain into a chilled coupe. Garnish with the strawberry slice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Another riff on the [[Last Word]]: two bitter liqueurs replace the Chartreuse and maraschino. A luscious strawberry syrup adds a sweet counterpoint and body.

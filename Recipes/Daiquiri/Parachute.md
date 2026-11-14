@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: Collins
 page: 139
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Parachute
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the tonic water into a Collins glass. Short shake the remaining ingredients with ice for about 5 seconds, then strain into the glass. Fill the glass with ice cubes and garnish with the grapefruit half wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Tyson Buhler, 2017. A great example of a Collins-style cocktail on a low-proof base, split between juicy white port and the slightly bitter Salers aperitif. Each has a powerful flavor, so it drinks much like a full-proof sour without such a strong alcohol punch.

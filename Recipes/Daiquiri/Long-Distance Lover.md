@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: tiki mug
 page: 281
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Long-Distance Lover
@@ -32,6 +29,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, gently muddle the orange, lemon and pineapple with the orgeat. Add the remaining ingredients, shake with ice, then strain into a tall tiki mug filled with crushed ice. Garnish with the pineapple leaves, orange half wheel, lemon wheel and cinnamon stick and insert a straw. Just before serving, torch the end of the cinnamon stick until it begins to smoke.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Lauren Corriveau, 2016. Smoked cinnamon garnish: see [[_Notes - Smoky Flavors]]. Appendix cocktail; root assigned by me.

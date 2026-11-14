@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: wine glass
 page: 223
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Aperol Spritz
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the Aperol into a wineglass. Fill with ice cubes, then pour in the sparkling wine and seltzer and quickly dip the barspoon in to gently mix. Garnish with the grapefruit wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic aperitif alongside the [[Americano]]. Aperol is the lightest aperitif, so more sparkling wine would push it boozy; seltzer keeps it fizzy and refreshing.

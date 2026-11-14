@@ -3,9 +3,6 @@ root: "#sidecar"
 method: short shake
 glass: Collins
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daisy Gun
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the seltzer into a Collins glass. Short shake the remaining ingredients with ice for about 5 seconds, then strain into the glass. Fill the glass with ice cubes, then garnish with the lemon wedge and a few grates of nutmeg.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2013. A Daisy-style drink (split base, sour balance) lengthened with seltzer. Appendix cocktail; root assigned by me.

@@ -3,9 +3,6 @@ root: "#flip"
 method: dry shake
 glass: coupe
 page: 262
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Barnaby Jones
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a chilled coupe. Garnish with a few grates of cinnamon.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Maura McGuigan, 2013. A nog variation with Cynar in the core. Shaking whole coffee beans with the drink adds subtle coffee flavor and helps whip the cream. Because Cynar is strong and sweet, the Scotch drops to 1 1/2 oz and the maple syrup to 1/2 oz: adding an amaro means rebalancing every ingredient.

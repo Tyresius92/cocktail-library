@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 11
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Exit Strategy
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2014. Amaro as the core also provides seasoning and sweetness, so neither bitters nor sugar syrup is needed. The brandy adds focused boozy flavor and dries the drink out, and a generous amount of salt solution rounds off the bitter edges.

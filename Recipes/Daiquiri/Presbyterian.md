@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: Collins
 page: 141
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Presbyterian
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the seltzer into a Collins glass. Short shake the remaining ingredients with ice for about 5 seconds, then strain into the glass. Fill the glass with ice cubes and garnish with the lime wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. Changing the core spirit may call for adjusting the type and amount of citrus. The classic Presbyterian is like the [[Moscow Mule]] and [[Dark and Stormy]], simply spirit with ginger ale, but here the core is rye, seasoned with lemon juice. This version uses both lemon, for its sweet and refreshing flavor, and lime, for its pleasant astringency.

@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: wine glass
 page: 226
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Wine Spritz
@@ -24,6 +21,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Pour the wine into a wineglass. Fill the glass with ice cubes, then pour in the seltzer and stir once. Garnish with the lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. With still wine as the core, the wine volume goes up and the seltzer comes down relative to a spirit Highball. Wines vary in sweetness and acidity, but a small measure of seltzer generally works.

@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 91
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Bamboo
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled Nick & Nora glass. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic, from late nineteenth-century Japan. Unlike the other boozy Martini variations here, a lower-ABV iteration: amontillado sherry replaces gin. Because sherry is lower in alcohol and less pungently flavored, the proportion of vermouth is increased to balance it: the vermouths surround the sherry and add sweetness and depth. One of the book's favorites, often served on tap at their bars.

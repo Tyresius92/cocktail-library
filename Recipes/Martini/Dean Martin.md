@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: Nick & Nora
 page: 71
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Dean Martin
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a Nick & Nora glass. Mist the top of the drink with the tincture.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Alex Day, 2015. Splitting the base with other spirits keeps the Martini's form intact while making a new cocktail. Some of the gin is replaced with highly flavorful Douglas fir brandy; because that changes the balance, woodsy La Quintinye blanc vermouth is added to accent it. Inspired by the question "What would a Martini consumed on a mountaintop in December taste like?"

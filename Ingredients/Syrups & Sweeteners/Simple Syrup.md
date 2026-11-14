@@ -1,12 +1,16 @@
 ---
 type: sweetener
-in_stock: true
 approximate_cost:
 ---
 
 # Simple Syrup
 
 **Category:** [[Sweetener]]
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Equal parts white sugar and water; very neutral flavor, which is its best attribute. Used in very small amounts (1/2 tsp to 1/4 oz) to boost flat flavors or curb bitterness without destroying it, and in larger amounts (3/4 to 1 oz) only to balance citrus.

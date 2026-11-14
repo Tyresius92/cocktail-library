@@ -3,9 +3,6 @@ root: "#martini"
 method: stir
 glass: coupe
 page: 88
-tried: false
-rating: 
-date_tried: 
 ---
 
 # European Union
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled coupe. Garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2009. A Martinez variation: a small amount of Calvados softens the Old Tom and adds fruity depth, while a touch of Strega adds complexity, acting much like bitters. All the (pre-Brexit) European friends in one glass.

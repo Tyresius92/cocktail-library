@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: wine glass
 page: 225
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Daisy Chain
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients except the cider in a wineglass. Fill the glass with ice cubes and stir until chilled. Top with the cider and stir gently to combine. Garnish with the apple slices.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. Built like [[Normandie Club Spritz No. 3]] to mimic the flavors of a glass of sparkling wine: dry salty manzanilla, floral St-Germain and juicy verjus read almost like a dry Muscat. Suze's bitterness curbs the candy notes of the St-Germain; the cider supplies body. See [[_Notes - Verjus]].

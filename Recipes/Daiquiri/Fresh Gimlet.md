@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 114
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Fresh Gimlet
@@ -25,6 +22,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with the lime wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A more dramatic way to experiment with the core is a completely different spirit. A classic gimlet uses lime cordial (a syrup devised to preserve lime juice on long sea voyages); this version uses fresh lime juice, essentially a Daiquiri made with gin, with a full ounce of lime to match the root Daiquiri.

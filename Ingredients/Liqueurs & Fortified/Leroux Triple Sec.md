@@ -1,6 +1,5 @@
 ---
 type: fortified
-in_stock: true
 approximate_cost:
 category: "Orange liqueur"
 style: "triple sec"
@@ -10,6 +9,11 @@ character: "30% ABV. A clear, sweet orange liqueur, more affordable and less com
 # Leroux Triple Sec
 
 **Category:** Orange liqueur
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Triple sec.

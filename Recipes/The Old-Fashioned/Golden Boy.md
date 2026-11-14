@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 10
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Golden Boy
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day and Devon Tarby, 2013. Scotch and raisins, with the madeira and Benedictine supplying enough sweetness that no extra sweetener is needed.

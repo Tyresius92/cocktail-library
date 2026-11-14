@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 131
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Cat Video
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients without ice, then shake again with ice. Double strain into a chilled coupe. Express the lemon twist over the top of the drink and discard, then garnish with the edible flower.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2015. A riff on the [[Pisco Sour]]: singani and Creme Yvette sit on opposite ends of pisco's aromatic profile, a dynamic tension that elevates the grape-based pisco. Singani, another grape-based spirit, pulls out pisco's deep earthy notes, while Creme Yvette plays off the floral qualities of Kappa pisco.

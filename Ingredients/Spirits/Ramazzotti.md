@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Amaro"
 style: "medium"
@@ -10,6 +9,11 @@ character: "Orange-flavored amaro. Book: 30% ABV; woody birch, cooked citrus and
 # Ramazzotti
 
 **Category:** [[Amaro]]
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Orange-flavored amaro.

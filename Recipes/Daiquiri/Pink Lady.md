@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 130
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Pink Lady
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Dry shake all the ingredients, then shake again with ice. Double strain into a chilled coupe and garnish with the cherry.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Classic. A mash-up of the [[Bee's Knees]] and the [[Jack Rose]]: gin and a bit of apple brandy are enhanced by juicy-tart grenadine. Lime would overpower the gin; lemon is a soft bridge between gin, brandy and grenadine. Also a lesson in restraint: a full 3/4 oz grenadine in place of the simple syrup would make the drink all about the grenadine, so it uses just 1/2 oz and supplements with simple syrup. Only 1/2 oz lemon because grenadine also has acidity, and with the drying effect of egg white a full 3/4 oz would be tongue-strippingly dry.

@@ -1,6 +1,5 @@
 ---
 type: liqueur
-in_stock: false
 approximate_cost:
 category: "Vanilla liqueur"
 style: "standard"
@@ -10,6 +9,11 @@ character: "Vanilla liqueur. Flavored with extracts of Madagascar vanilla: a str
 # Giffard Vanille de Madagascar
 
 **Category:** Liqueur
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Vanilla liqueur.

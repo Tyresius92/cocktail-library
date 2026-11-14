@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 24
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Autumn Old-Fashioned
@@ -30,6 +27,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2013. A richer, deeper expression of The Conference (a groundbreaking variation by former Death & Co head bartender Brian Miller), whose core is divided between four brown spirits. Maple syrup is the usual sweetener when combining this many big flavors; its brightness keeps the spirits from getting too heavy.

@@ -3,9 +3,6 @@ root: "#flip"
 method: stir
 glass: bowl
 page: 273
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Saturday Morning Cartoons
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients (except the cereal) in a mixing glass and stir to mix well. Pour over cereal in a bowl and serve with a spoon. Lap up any remaining liquid!
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. A tongue-in-cheek play on cereal milk: infusions and liqueurs bring a classic Flip's richness and sweetness to a dairy-free drink built on homemade almond milk. Cinnamon-spiced cachaca is deepened with cacao nib tincture and vanilla liqueur. Not meant to be sipped (though you can): pour it over cereal for a buzzy breakfast.

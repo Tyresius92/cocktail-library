@@ -3,9 +3,6 @@ root: "#flip"
 method: heat
 glass: mug
 page: 272
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Indulge
@@ -28,6 +25,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a small saucepan over medium-low heat and cook, stirring frequently, until steaming hot but not simmering. Pour into a coffee mug or small teacup. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. A Tom and Jerry-inspired drink showing how a few drops of lactic acid add tang and creaminess. Extra richness from brown butter-infused apple brandy and almond milk, nuttiness from amaretto. Exceedingly smooth and rich.

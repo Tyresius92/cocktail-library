@@ -3,9 +3,6 @@ root: "#flip"
 method: shake
 glass: double Old-Fashioned
 page: 279
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Coco and Ice
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a double Old-Fashioned glass over 1 large cube. Garnish with the banana chip.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Mary Bartlett, 2014. Rich, coconut-milk based; filed under Flip by me (no root stated).

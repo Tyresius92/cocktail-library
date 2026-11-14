@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: rocks
 page: 17
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Night Owl
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into an Old-Fashioned glass over 1 large ice cube. Express the lemon twist over the drink, then place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2013. A riff on the [[Pop Quiz]] and a Mr. Potato Head variation: boozy chocolate without being dessert in a glass. The seasoning comes from the amaro as well as the bitters.

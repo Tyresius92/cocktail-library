@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 183
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Clarified Cosmopolitan
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (including the lemon and lime twists) with ice, then strain into a chilled coupe. Express the orange twist over the drink, then gently rub it around the rim of the glass and place it into the drink.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby and Alex Day, 2015. The ideal Cosmo: clarified lime juice mimics the clarity of the familiar Cosmo minus the Rose's lime juice and cranberry cocktail. No flavored vodka: citrus flavor comes from shaking with lemon and lime twists, which also lets guests choose their preferred brand of vodka.

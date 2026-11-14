@@ -3,9 +3,6 @@ root: "#sidecar"
 method: stir
 glass: punch bowl, large ice block
 page: 
-tried: true
-rating: 
-date_tried: 
 ---
 
 # Fish House Punch (Bowl)
@@ -31,6 +28,11 @@ await dv.view("Views/recipe-status");
 **Make the oleo saccharum.** Peel 6 lemons. Muddle the peels with the sugar. Let the mixture sit for at least 3 to 4 hours; longer is better.
 
 **Build the punch.** Add the oleo saccharum to a punch bowl. Add all the remaining ingredients and stir until the sugar is dissolved. Keep chilled with a big block of ice.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Personal batch version for a bowl, not from the book. Same idea as the book's single-serving [[Fish House Punch]]: Cognac, Jamaican rum, peach liqueur/brandy and lemon, with the oleo saccharum giving the lemon-peel oils and sugar. Here the dilution comes from the cold water and the ice block rather than seltzer.

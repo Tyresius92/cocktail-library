@@ -3,9 +3,6 @@ root: "#flip"
 method: heat
 glass: mug
 page: 257
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Almond Orchard
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine all the ingredients in a small saucepan over medium-low heat and cook, stirring frequently, until steaming but not simmering. Pour into a coffee mug, small wooden bowl or large sake cup. No garnish.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2015. A dairy- and egg-free option: a soothing hot mix of tea-infused young apple brandy and almond milk, with lactic acid to ramp up creaminess.

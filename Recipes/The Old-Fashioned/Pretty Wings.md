@@ -3,9 +3,6 @@ root: "#old-fashioned"
 method: stir
 glass: flute
 page: 29
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Pretty Wings
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients (except the Champagne) over ice, then strain into a chilled flute. Pour in the Champagne and quickly dip the barspoon into the glass to gently mix the Champagne with the cocktail. Garnish with the lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Inspired by Dave Kupchinsky's Lemonade cocktail at the Everleigh in West Hollywood; looks to the Champagne Cocktail for simplicity and brings in chamomile via an infusion of softly herbaceous, slightly bitter Cocchi Americano. Exceedingly refreshing on a hot day.

@@ -1,6 +1,5 @@
 ---
 type: spirit
-in_stock: false
 approximate_cost:
 category: "Singani"
 style: "standard"
@@ -10,6 +9,11 @@ character: "Bolivian grape-based spirit"
 # Singani 63
 
 **Category:** Singani
+
+## In stock
+```dataviewjs
+await dv.view("Views/stock-toggle");
+```
 
 ## Notes
 Bolivian grape-based spirit.

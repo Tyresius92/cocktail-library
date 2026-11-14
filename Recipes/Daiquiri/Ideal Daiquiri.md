@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: coupe
 page: 104
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Ideal Daiquiri
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients with ice, then strain into a chilled coupe. Garnish with the lime wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 The book's root recipe. Veers slightly from the classic with a split base of light Spanish-style rum accented with a tiny amount of flavorful rhum agricole, and bumps the lime juice up a touch for a brighter citrus hit. Deeply refreshing and pleasantly complex.

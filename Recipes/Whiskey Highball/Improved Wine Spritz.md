@@ -3,9 +3,6 @@ root: "#whiskey-highball"
 method: build
 glass: wine glass
 page: 226
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Improved Wine Spritz
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Combine the wine, lemon juice and simple syrup in a wineglass. Fill the glass with ice cubes, pour in the seltzer and stir gently to combine. Garnish with the lemon wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2016. Applies the Daiquiri-chapter principles to the [[Wine Spritz]]: small amounts of lemon and syrup add sweet-sour balance, lift the wine and add body without leaving the Highball template.

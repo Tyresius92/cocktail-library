@@ -3,9 +3,6 @@ root: "#sidecar"
 method: stir
 glass: coupe
 page: 186
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Four to the Floor
@@ -26,6 +23,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Stir all the ingredients over ice, then strain into a chilled coupe. Garnish with the grape.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Devon Tarby, 2014. A variation on the [[Corpse Reviver No. 2]]. When a liqueur drives the flavor, the citrus usually needs changing: here the base is pisco and grapefruit liqueur, so more acidic citrus juice (which would overshadow them) is replaced with verjus. Because it's stirred rather than shaken, the texture is smooth and silky rather than aerated. See [[_Notes - Verjus]].

@@ -3,9 +3,6 @@ root: "#sidecar"
 method: shake
 glass: coupe
 page: 171
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Peaches and Smoke
@@ -29,6 +26,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 In a shaker, muddle the peach. Add the remaining ingredients and shake with ice, then double strain into a chilled coupe. Garnish with the peach wedge.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Alex Day, 2014. Low-ABV approach: split the core between a larger portion of fortified wine and a small measure of strong spirit, which can then work with a flavorful liqueur to balance and season the drink. Because fortified wine often has some sweetness, you may need a bit less liqueur.

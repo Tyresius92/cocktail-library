@@ -3,9 +3,6 @@ root: "#daiquiri"
 method: shake
 glass: large fizz glass
 page: 143
-tried: false
-rating: 
-date_tried: 
 ---
 
 # Accidental Guru
@@ -27,6 +24,11 @@ await dv.view("Views/recipe-status");
 
 ## Method
 Shake all the ingredients (except the beer) with ice, then strain into a large chilled fizz glass. Pour in the beer, then garnish with the lime wheel.
+
+## Tried
+```dataviewjs
+await dv.view("Views/tried-toggle");
+```
 
 ## Notes
 Natasha David, 2014. Beer and cider can also add effervescence to Collins-style drinks, but they vary widely in alcohol, flavor, sweetness and acidity, so the base spirit, citrus and sweetener need careful adjusting. Here just 1 oz of whiskey, a bit less citrus, and less sweetener because the drink is enhanced with peach liqueur.
