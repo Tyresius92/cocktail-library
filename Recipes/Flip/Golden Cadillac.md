@@ -13,7 +13,7 @@ page: 269
 - 1 oz [[Galliano l'Autentico]] #core
 - 1 oz [[Giffard white creme de cacao]] #balance
 - 1 oz [[Heavy Cream]] #balance
-- Garnish: dark chocolate #seasoning
+- Garnish: [[Dark Chocolate]] #seasoning
 
 ## Your Bar
 ```dataviewjs

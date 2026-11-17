@@ -17,7 +17,7 @@ page: 280
 - 1/2 oz fresh [[Lemon Juice]] #balance
 - 1/2 oz [[House Ginger Syrup]] (p48) #balance
 - 1 tsp dark, robust [[Maple Syrup]] #balance
-- Garnish: 3 thin apple slices on a skewer #seasoning
+- Garnish: 3 thin [[Apple]] slices on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

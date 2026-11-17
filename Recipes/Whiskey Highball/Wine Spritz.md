@@ -10,7 +10,7 @@ page: 226
 [[Whisky Highball]]
 
 ## Ingredients
-- 4 oz cold, crisp white or rose wine #core
+- 4 oz cold, crisp [[White Wine]] or rose #core
 - 2 oz cold [[Seltzer]] #balance
 - Garnish: 1 [[Lemon]] wheel #seasoning
 

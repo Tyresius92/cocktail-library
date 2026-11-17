@@ -10,7 +10,7 @@ page: 226
 [[Whisky Highball]]
 
 ## Ingredients
-- 4 oz cold, crisp white or rose wine #core
+- 4 oz cold, crisp [[White Wine]] or rose #core
 - 1/4 oz fresh [[Lemon Juice]] #balance
 - 1/4 oz [[Simple Syrup]] (p45) #balance
 - 2 oz cold [[Seltzer]] #balance

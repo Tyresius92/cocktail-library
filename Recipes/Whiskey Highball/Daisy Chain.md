@@ -17,7 +17,7 @@ page: 225
 - 1/4 oz fresh [[Lemon Juice]] #balance
 - 2 drops [[Salt Solution]] (p298) #seasoning
 - 3 oz [[Normandy sparkling apple cider]] #balance
-- Garnish: 5 thin apple slices on a skewer #seasoning
+- Garnish: 5 thin [[Apple]] slices on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

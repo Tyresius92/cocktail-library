@@ -12,7 +12,7 @@ page: 222
 ## Ingredients
 - 1 oz fresh [[Orange Juice]] #balance
 - 3 drops [[Citric Acid Solution]] (p298) #balance
-- 5 oz cold dry sparkling wine #core
+- 5 oz cold [[Dry Sparkling Wine]] #core
 
 ## Your Bar
 ```dataviewjs

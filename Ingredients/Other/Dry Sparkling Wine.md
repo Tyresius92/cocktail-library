@@ -1,6 +1,7 @@
 ---
 type: ingredient
 approximate_cost:
+covered_by: ["Dry Champagne", "Prosecco", "Cava", "Rose Cremant"]
 ---
 
 # Dry Sparkling Wine
@@ -13,4 +14,4 @@ await dv.view("Views/stock-toggle");
 ```
 
 ## Notes
-*Tasting notes, substitution suggestions, where to buy.*
+Any dry sparkling wine you own covers this: Champagne, Prosecco, Cava or crémant. Drier is better (no sweeter than brut).

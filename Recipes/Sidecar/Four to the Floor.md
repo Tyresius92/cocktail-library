@@ -14,7 +14,7 @@ page: 186
 - 3/4 oz [[Giffard Creme de Pamplemousse]] #balance
 - 1/2 oz [[Dolin Blanc]] #core
 - 3/4 oz [[Fusion Napa Valley verjus blanc]] #balance
-- Garnish: 1 green grape on a skewer #seasoning
+- Garnish: 1 [[Green Grape]] on a skewer #seasoning
 
 ## Your Bar
 ```dataviewjs

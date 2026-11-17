@@ -14,7 +14,7 @@ page: 270
 - 1 1/2 oz [[Baileys Irish Cream]] #balance
 - 1 oz [[Kahlua coffee liqueur]] #balance
 - 3 scoops [[Vanilla or Coffee Ice Cream]] #balance
-- Garnish: finely grated dark chocolate #seasoning
+- Garnish: finely grated [[Dark Chocolate]] #seasoning
 
 ## Your Bar
 ```dataviewjs
@@ -22,7 +22,7 @@ await dv.view("Views/recipe-status");
 ```
 
 ## Method
-Combine all the ingredients in a blender and process until smooth. Pour into a Collins glass and serve with a straw and long spoon. Garnish with grated dark chocolate.
+Combine all the ingredients in a blender and process until smooth. Pour into a Collins glass and serve with a straw and long spoon. Garnish with grated [[Dark Chocolate]].
 
 ## Tried
 ```dataviewjs

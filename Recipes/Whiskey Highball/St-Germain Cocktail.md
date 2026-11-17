@@ -11,7 +11,7 @@ page: 223
 
 ## Ingredients
 - 1 1/2 oz [[St-Germain]] #core
-- 2 oz cold dry sparkling wine #balance
+- 2 oz cold [[Dry Sparkling Wine]] #balance
 - 2 oz cold [[Seltzer]] #balance
 - Garnish: 1 [[Lemon]] twist #seasoning
 
